@@ -1,0 +1,32 @@
+/* cambia letras del navbar */
+
+ul {
+    font-family: Arial;
+}
+
+
+/*-----------------------------------NAVBAR-------------------------------- */
+
+.navbar {
+    /* background-color: transparent rgba(0, 0, 0, 4); */
+    background-color: #0F1A20;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 18px;
+    transition: background-color 0.4s ease-out;
+}
+
+nav.scroll {
+    background-color: rgb(63, 62, 70);
+    color: white;
+}
+
+#prueba1 {
+    color: white;
+}
