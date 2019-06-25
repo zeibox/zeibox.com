@@ -8,14 +8,14 @@ ul {
 /*-----------------------------------NAVBAR-------------------------------- */
 
 .navbar {
-    /* background-color: transparent rgba(0, 0, 0, 4); */
-    background-color: #0F1A20;
+    background-color: transparent rgba(0, 0, 0, 4);
+    /* background-color: #0F1A20; */
 }
 
 nav {
     position: fixed;
     top: 0;
-    height: 48px;
+    height: 60px;
     width: 100%;
     box-sizing: border-box;
     padding: 12px 18px;
@@ -29,4 +29,11 @@ nav.scroll {
 
 #prueba1 {
     color: white;
+    top: 10%;
 }
+
+
+/* #navbarTogglerDemo02 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+} */
