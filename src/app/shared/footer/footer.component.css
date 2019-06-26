@@ -1,0 +1,28 @@
+/*-----------------------------------Footer info--------------*/
+
+#cardFoot {
+    background-color: rgb(63, 62, 70);
+    border: none;
+    border-radius: 0;
+}
+
+#cardFoot p {
+    color: grey;
+}
+
+.card-body .card-text {
+    margin-bottom: 5px;
+}
+
+.datosF {
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.datosF h4 {
+    color: white;
+}
+
+.fa-phone-square-alt {
+    color: white;
+}

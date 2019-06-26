@@ -22,12 +22,17 @@ export class NavbarComponent implements OnInit {
 
   handleMenu(){
     const nav = document.querySelector('#navbar');
-    nav.className = 'navbar navbar-dark fixed-top scroll';
+    nav.className = 'navbar navbarT navbar-dark fixed-top scroll';
     if( this.opciones === 'none') {
       this.opciones = 'inline';
-      nav.className = 'navbar navbar-dark fixed-top scroll';
+      nav.className = 'navbar navbarT navbar-dark fixed-top scroll';
     } else {
       this.opciones = 'none';
+      if ( window.scrollY <= 10 ) {
+        nav.className = 'navbar navbar-dark fixed-top';
+      } else {
+        nav.className = 'navbar navbar-dark fixed-top scroll';
+      }
     }
 
   }
