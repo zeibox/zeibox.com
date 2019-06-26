@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { WorkfluxComponent } from './components/workflux/workflux.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WorkfluxComponent } from './components/workflux/workflux.component';
     NavbarComponent,
     CardsComponent,
     SliderComponent,
-    WorkfluxComponent
+    WorkfluxComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
