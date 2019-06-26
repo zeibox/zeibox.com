@@ -1,20 +1,31 @@
 <nav class="navbar fixed-top  navbar-dark" id="navbar">
     <div class="container">
         <a class="navbar-brand" routerLink="home">
-            <h2><span id="prueba1">Z E I B O X</span></h2>
+            <h2><span id="items">Z E I B O X</span></h2>
         </a>
-        <button class="navbar-toggler active" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
+        <div id="menu" [ngStyle]=" { 'display': opciones } ">
+            <a class="navbar-brand" routerLink="#/home">
+                <span>QUIENES SOMOS</span>
+            </a>
+            <a class="navbar-brand" routerLink="#/home">
+                <span>SERVICIOS</span>
+            </a>
+        </div>
+
+        <button class="navbar-toggler" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+        <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul style="font-size: 18px">
-                <li class="nav-item active px-2">
-                    <a class="nav-link" id="prueba1">QUIÉNES SOMOS</a>
+                <li class="nav-item px-2">
+                    <a class="nav-link">QUIÉNES SOMOS</a>
                 </li>
-                <li class="nav-item active px-2">
-                    <a class="nav-link" id="prueba1">PREGUNTAS FRECUENTES</a>
+                <li class="nav-item px-2">
+                    <a class="nav-link">SERVICIOS</a>
                 </li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </nav>
