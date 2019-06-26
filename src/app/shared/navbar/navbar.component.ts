@@ -6,18 +6,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  opciones = 'none';
   constructor() { }
 
   ngOnInit() {
     window.onscroll = () => {
       const nav = document.querySelector('#navbar');
-      if(window.scrollY <= 10){
-        nav.className = 'navbar navbar-expand-md navbar-dark fixed-top';
+      if ( window.scrollY <= 10 ) {
+        nav.className = 'navbar navbar-dark fixed-top';
       } else {
-        nav.className = 'navbar navbar-expand-md navbar-dark fixed-top scroll';
+        nav.className = 'navbar navbar-dark fixed-top scroll';
       }
     };
+  }
+
+  handleMenu(){
+    const nav = document.querySelector('#navbar');
+    nav.className = 'navbar navbar-dark fixed-top scroll';
+    if( this.opciones === 'none') {
+      this.opciones = 'inline';
+      nav.className = 'navbar navbar-dark fixed-top scroll';
+    } else {
+      this.opciones = 'none';
+    }
+
   }
 
 }
