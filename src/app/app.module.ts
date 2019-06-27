@@ -9,6 +9,9 @@ import { CardsComponent } from './components/cards/cards.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { WorkfluxComponent } from './components/workflux/workflux.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,15 @@ import { FooterComponent } from './shared/footer/footer.component';
     CardsComponent,
     SliderComponent,
     WorkfluxComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
