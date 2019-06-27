@@ -5,9 +5,19 @@
 }
 
 
+/* .vcenter {
+    position: relative;
+    float: left;
+    top: 90%;
+    left: 50%;
+    transform: translate(-60%, -150%);
+} */
+
+
 /* ------------------------Contacto----------------------------- */
 
-input,
+
+/* input,
 textarea,
 select {
     border-radius: 0;
@@ -21,10 +31,12 @@ select {
 
 .btn {
     border-radius: 0;
-}
+} */
 
+
+/*
 #contact {
     background: url(https://www.visualit.es/wp-content/uploads/2014/05/fondo2.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
-}
+} */

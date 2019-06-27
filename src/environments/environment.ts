@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyAKCA-sLhE5l7RKRZaf9wdsVIWlvHqR44Y',
+    authDomain: 'zeibox.firebaseapp.com',
+    databaseURL: 'https://zeibox.firebaseio.com',
+    projectId: 'zeibox',
+    storageBucket: '',
+    messagingSenderId: '633512820623',
+    appId: '1:633512820623:web:bd75746913a18b4c'
+  }
 };
 
 /*
