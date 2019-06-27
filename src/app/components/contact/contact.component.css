@@ -1,0 +1,30 @@
+/* agrega puntero de seleccion  */
+
+#accord {
+    cursor: pointer;
+}
+
+
+/* ------------------------Contacto----------------------------- */
+
+input,
+textarea,
+select {
+    border-radius: 0;
+    border: 1px solid rgb(231, 230, 230);
+}
+
+ ::placeholder,
+.custom-select {
+    color: rgb(165, 163, 163);
+}
+
+.btn {
+    border-radius: 0;
+}
+
+#contact {
+    background: url(https://www.visualit.es/wp-content/uploads/2014/05/fondo2.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}

@@ -7,8 +7,22 @@
     }
 } */
 
+#contact {
+    background: url(https://www.visualit.es/wp-content/uploads/2014/05/fondo2.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .sombra {
     box-shadow: 0px 100px 100px 100px rgba(27, 27, 27, 0.521);
+}
+
+.vcenter {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1200px) {
