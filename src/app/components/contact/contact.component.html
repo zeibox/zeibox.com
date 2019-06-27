@@ -1,45 +1,53 @@
-<div class="container-fluid py-5 pb-5">
-    <div class="container-fluid col-12">
-
-        <div class="row justify-content-center">
-
-            <div class="col-11 col-md-8 col-lg-7 px-5 py-4 shadow" style="background-color: rgb(36, 34, 41)">
-                <form [formGroup]="message" (ngSubmit)="onSubmit()">
-                    <h2 class="py-1 text-light" style="" align="center">
-                        <B>CONTACTO</B>
-                    </h2>
-                    <div class="input-group mb-3">
-                        <select class="custom-select" formControlName="interest">
-                          <option selected></option>
-                          <option value="Prestamos">Préstamos</option>
-                          <option value="Prendas">Prendas</option>
-                          <option value="Refinanciación">Refinanciación</option>
-                        </select>
-                    </div>
-                    <div class="row" formGroupName="fullName">
-                        <div class="form-group col-12 col-xl-6">
-                            <input type="text" class="form-control" formControlName="name" placeholder="Nombre">
-                        </div>
-                        <div class="form-group col-12 col-xl-6">
-                            <input type="text" class="form-control" formControlName="lastName" placeholder="Apellido">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" formControlName="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" formControlName="phone" placeholder="Teléfono">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" formControlName="city" placeholder="Ciudad">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" formControlName="textarea" placeholder="Descripción" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary col-12 my-3 py-2" style="font-size: 1.3em" [disabled]="!message.valid">ENVIAR</button>
-                </form>
-
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <div class="d-none d-md-block col-sm-12 col-md-6  ">
+            <div class="card vcenter  border-0">
+                <div class="card-body">
+                    <h1 style="font-size: 50px ">Comienza con tu emprendimiento. ¡Escríbenos! </h1>
+                </div>
             </div>
         </div>
+        <div class="d-md-none col-sm-12 col-md-6  ">
+            <div class="card vcenter  border-0">
+                <div class="card-body">
+                    <h1 style="font-size: 40px ">¡Escríbenos! </h1>
+                </div>
+            </div>
+        </div>
+        <form [formGroup]="message" (ngSubmit)="onSubmit() " class="col-md-6 col-sm-12">
+
+            <div class="form-row" formGroupName="fullName">
+                <div class="form-group col-md-6 ">
+                    <label>Nombre*</label>
+                    <input type="text " class="form-control rounded border border-secondary " formControlName="name" placeholder="Nombre ">
+                </div>
+                <div class="form-group col-md-6 ">
+                    <label>Apellido</label>
+                    <input type="text " class="form-control rounded border border-secondary " formControlName="lastName" placeholder="Apellido ">
+                </div>
+            </div>
+            <div class="form-row ">
+                <div class="form-group col-md-6 ">
+                    <label>Email*</label>
+                    <input type="email " class="form-control rounded border border-secondary " formControlName="email" placeholder="Email ">
+                </div>
+                <div class="form-group col-md-6 ">
+                    <label>¿Qué estás buscando?</label>
+                    <select formControlName="interest" class="form-control rounded border border-secondary ">
+                      <option>Desarrollo web</option>
+                      <option>App Móviles</option>
+                      <option>Asesoramiento</option>
+                      <option>Marketing Digital</option>
+                      <option>Redes Sociales</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group ">
+                <label>¿Qué estás buscando?</label>
+                <textarea class="form-control rounded border border-secondary " formControlName="textarea" rows="3"></textarea>
+            </div>
+            <button type="submit " class="btn btn-danger rounded ">Enviar</button>
+        </form>
+
     </div>
 </div>
