@@ -1,29 +1,40 @@
-<nav class="navbar navbarT fixed-top  navbar-dark" id="navbar">
+<nav class="navbar navbarT fixed-top" id="navbar">
     <div class="container">
-        <a class="navbar-brand" routerLink="home">
+        <a class="navbar-brand white" id="navText" routerLink="home">
             <h2><span id="items">Z E I B O X</span></h2>
         </a>
         <div id="menu" [ngStyle]=" { 'display': opciones } ">
-            <a class="navbar-brand" routerLink="#/home">
+            <a class="navbar-brand white" id="navText" routerLink="#/home">
                 <span>QUIENES SOMOS</span>
             </a>
-            <a class="navbar-brand" routerLink="#/home">
+            <a class="navbar-brand white" id="navText" routerLink="#/home">
                 <span>SERVICIOS</span>
             </a>
         </div>
-
-        <button class="navbar-toggler" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false">
-          <span class="navbar-toggler-icon custom-toggler"></span>
+        <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
+          <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
         </button>
-
-
-        <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul style="font-size: 18px">
-                <li class="nav-item px-2">
-                    <a class="nav-link">QUIÉNES SOMOS</a>
+    </div>
+</nav>
+<nav class="navbar navbarT fixed-top" id="navbar2">
+    <div class="container justify-content-center">
+        <a class="navbar-brand white" id="navText" routerLink="home">
+            <h2><span id="items">Z E I B O X</span></h2>
+        </a>
+        <!-- <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
+                <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
+              </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active px-2">
+                    <a class="navbar-brand white" id="navText" routerLink="#/home">
+                        <span>QUIENES SOMOS</span>
+                    </a>
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link">SERVICIOS</a>
+                <li class="nav-item active px-2">
+                    <a class="navbar-brand white" id="navText" routerLink="#/home">
+                        <span>SERVICIOS</span>
+                    </a>
                 </li>
             </ul>
         </div> -->

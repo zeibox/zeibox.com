@@ -5,18 +5,41 @@ ul {
 }
 
 
-/*------------- Navbar Toggler Color Blanco - Opacidad 1 ------------- */
+/*------------- Navbar Toggler Color Rojo - Opacidad 1 -------------*/
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.red-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+}
+
+
+/*------------- Navbar Toggler Borde Rojo ------------- */
+
+.red-border {
+    border-color: rgb(252, 252, 252);
+}
+
+
+/*------------- Navbar Toggler Color Blanco - Opacidad 1 -------------*/
+
+.white-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     border: none;
 }
 
 
 /*------------- Navbar Toggler Borde Blanco ------------- */
 
-.navbar-toggler {
-    border-color: white;
+.white-border {
+    border-color: rgb(255, 255, 255);
+}
+
+.red {
+    color: rgb(255, 255, 255);
+}
+
+.white {
+    color: white;
 }
 
 
@@ -30,7 +53,6 @@ ul {
 nav {
     position: fixed;
     top: 0;
-    color: white;
     height: 70px;
     width: 100%;
     box-sizing: border-box;
@@ -38,8 +60,8 @@ nav {
     transition: background-color 0.4s ease-out;
 }
 
-nav.scroll {
-    background-color: rgba(0, 0, 0, 0.7);
+.scroll {
+    background-color: rgba(63, 62, 70, 0.95);
 }
 
 #navbarTogglerDemo02 {
