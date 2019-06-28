@@ -9,6 +9,22 @@
     height: auto;
 }
 
+
+/* llena el 100% del div usando el ancho maximo de la imagen */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.cardFull {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    height: 300px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -81,14 +97,6 @@
 .card:hover .overlay4 {
     opacity: 1;
 }
-
-
-/* 
-.card:hover .overlay2 .text2 {
-    top: 30%;
-    left: 50%;
-    font-size: 40px;
-} */
 
 .text {
     color: white;
@@ -207,27 +215,14 @@
 }
 
 
-/* llena el 100% del div usando el ancho maximo de la imagen */
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-.cardFull {
-    padding: 0;
-    margin: 0;
-    border: none;
-    border-radius: 10%;
-    height: 300px;
-}
-
-
 /* Oculta la informacion del footer a 1200px */
 
 @media (max-width: 1200px) {
     #data-footer {
         display: none;
+    }
+    .cardFull {
+        height: 220px;
     }
 }
 
@@ -235,17 +230,17 @@ img {
     #bg {
         height: 700px;
     }
-    .cardFull {
-        height: 300px;
-    }
 }
 
 @media (max-width: 615px) {
     #bg {
         height: 400px;
     }
-    .cardFull {
-        height: 300px;
+    .text {
+        font-size: 22px;
+    }
+    .text2 {
+        font-size: 22px;
     }
 }
 
@@ -259,17 +254,4 @@ img {
     .text-banner {
         font-size: 2em;
     }
-}
-
-
-/*-----------------------------------Footer info--------------*/
-
-#cardFoot {
-    background-color: rgb(63, 62, 70);
-    border: none;
-    border-radius: 0;
-}
-
-#cardFoot p {
-    color: grey;
 }
