@@ -9,7 +9,6 @@
 /* filtro gris para banner de Qsomos */
 
 #layer {
-    background-color: rgb(241, 240, 237);
     position: absolute;
     top: 0;
     left: 0;
@@ -22,8 +21,20 @@
     color: rgb(65, 65, 65);
 }
 
-@media (min-width: 0px) and (max-width: 1000px) {
+@media (min-width: 0px) and (max-width: 500px) {
     .text-banner {
+        font-size: 1.4em;
+    }
+    .text-banner2 {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .text-banner {
+        font-size: 1.8em;
+    }
+    .text-banner2 {
         font-size: 1.2em;
     }
 }
