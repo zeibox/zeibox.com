@@ -1,15 +1,12 @@
 #banner {
-    background: url(https://www.torchgroup.com/wp-content/uploads/2019/01/fee-structure-graphic.jpg) no-repeat center center;
-    height: 350px;
+    background: url("../../../assets/img/banner2a.jpg") no-repeat center center;
+    height: 450px;
     background-size: cover;
     position: relative;
 }
 
-
-/* filtro gris para banner de Qsomos */
-
 #layer {
-    background-color: rgba(29, 28, 28, 0.7);
+    background-color: rgba(29, 28, 28, 0.856);
     position: absolute;
     top: 0;
     left: 0;
@@ -17,14 +14,23 @@
     height: 100%;
 }
 
-@media (min-width: 0px) and (max-width: 1000px) {
+@media (min-width: 0px) and (max-width: 500px) {
     .text-banner {
-        font-size: 1.2em;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .text-banner {
+        font-size: 1.6em;
+        font-weight: 500;
     }
 }
 
 @media (min-width: 1000px) {
     .text-banner {
-        font-size: 2em;
+        font-size: 2.5em;
+        font-weight: 500;
     }
 }
