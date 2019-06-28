@@ -177,14 +177,6 @@
     transform: translateY(-50%);
 }
 
-.vcenter2 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
 
 /*  */
 
@@ -226,8 +218,8 @@ img {
     padding: 0;
     margin: 0;
     border: none;
-    border-radius: 0;
-    height: 280px;
+    border-radius: 10%;
+    height: 300px;
 }
 
 
@@ -270,44 +262,6 @@ img {
 }
 
 
-/* quick reset */
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  } */
-
-
-/* relevant styles */
-
-.img__wrap {
-    position: relative;
-    height: 200px;
-    width: 257px;
-}
-
-.img__description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.img__wrap:hover .img__description {
-    visibility: visible;
-    opacity: 1;
-}
-
-
 /*-----------------------------------Footer info--------------*/
 
 #cardFoot {
@@ -318,31 +272,4 @@ img {
 
 #cardFoot p {
     color: grey;
-}
-
-
-/* ------------------------Contacto----------------------------- */
-
-input,
-textarea,
-select {
-    border-radius: 0;
-    border: 1px solid rgb(231, 230, 230);
-}
-
- ::placeholder,
-.custom-select {
-    color: rgb(165, 163, 163);
-}
-
-.btn {
-    border-radius: 0;
-}
-
-ul {
-    font-family: Arial;
-}
-
-#accord {
-    cursor: pointer;
 }
