@@ -23,38 +23,6 @@
     color: white;
 }
 
-.zeiboxH {
-    /* padding-top: 2% 0;
-    font-size: 100%; */
-    font-size: 40px;
-    /* font-weight: 600; */
-}
-
 .fa-phone-square-alt {
     color: white;
-}
-
-.overlay2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    /* opacidad por defecto */
-    opacity: 1;
-}
-
-.text2 {
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
