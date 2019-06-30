@@ -72,3 +72,13 @@ nav {
     right: 0%;
     top: 100px;
 }
+
+.zeiboxH {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cent {
+    display: flex;
+    justify-content: center
+}
