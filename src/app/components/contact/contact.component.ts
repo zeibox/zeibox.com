@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormGroup, FormBuilder } from '@angular/forms';
-import { Message } from '@angular/compiler/src/i18n/i18n_ast';
+import { ContactsService } from 'src/app/services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   message: FormGroup;
   emailPattern: any = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-  constructor( private fb: FormBuilder ) { }
+  constructor(public contactService: ContactsService, private fb: FormBuilder ) { }
 
   ngOnInit() {
     this.message = this.fb.group({
@@ -31,8 +31,7 @@ export class ContactComponent implements OnInit {
 
 
   onSubmit() {
-    // this.contactForm.addContact(this.message.value);
-    console.log(this.message.value);
+    this.contactService.addContact(this.message.value);
     this.message.reset( {
       interest: "",
       fullName: {

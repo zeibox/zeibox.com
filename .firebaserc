@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "zeibox",
+    "zeibox": "zeibox"
+  }
+}
