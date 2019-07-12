@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   firebaseConfig: {
     apiKey: 'AIzaSyAKCA-sLhE5l7RKRZaf9wdsVIWlvHqR44Y',
     authDomain: 'zeibox.firebaseapp.com',
