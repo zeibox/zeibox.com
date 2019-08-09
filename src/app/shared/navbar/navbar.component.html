@@ -3,6 +3,14 @@
         <a class="navbar-brand" href="#home">
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
+        <a class="float-left">
+            <label for="">
+                  <span style="color: white">{{ 'HOME.SELECT' | translate }} </span>
+                  <select #langselect (change)="translate.use(langselect.value)" name="" id="">
+                  <option *ngFor="let lang of translate.getLangs()" >{{ lang }}</option>
+                  </select>
+                </label>
+        </a>
         <!-- <a class="navbar-brand white mr-auto zeiboxH" id="navZeibox" href="#home">
             <span id="items">Z E I B O X</span>
         </a> -->
