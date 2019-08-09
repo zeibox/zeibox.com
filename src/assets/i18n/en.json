@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "TITLE": "Testing multi-language app",
+        "TEXT": "This demo has been created using ngx-translate",
+        "SELECT": "Select Language"
+    },
+    "BANNER1": {
+        "TEXT1": "WEBSITES, MOBILE & BUSINESS APLICATIONS",
+        "TEXT2": "CUSTOM SOFTWARE DEVELOMENT"
+    },
+    "SLIDER": {
+        "TEXT1": "DIGITAL SOLUTIONS",
+        "TEXT2": "¿Do you want to take your company to the next level?"
+    }
+}
