@@ -3,6 +3,8 @@
     height: 450px;
     background-size: cover;
     position: relative;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #layer {

@@ -1,3 +1,10 @@
+.flags img {
+    height: 25px;
+    /* border: 2px solid #000000;
+    border-radius: 50%; */
+}
+
+
 /* cambia letras del navbar */
 
 ul {
