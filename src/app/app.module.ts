@@ -17,10 +17,16 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 
+
+import { NgwWowModule } from 'ngx-wow';
+
+
 // NGX-TRANSLATE
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { CardComponent } from './components/cards/card/card.component';
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -36,11 +42,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     ContactComponent,
     BannerComponent,
-    Banner1Component
+    Banner1Component,
+    CardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgwWowModule,
     FormsModule,
     ReactiveFormsModule,
     AngularFirestoreModule,
