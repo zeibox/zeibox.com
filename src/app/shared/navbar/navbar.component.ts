@@ -9,13 +9,16 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavbarComponent implements OnInit {
 
   opciones = 'none';
+  langEs: boolean;
+  browserLang = this.translate.getBrowserLang();
 
   constructor(public translate: TranslateService) {
     translate.addLangs(['es', 'en']);
     translate.setDefaultLang('es');
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/es|en/) ? browserLang : 'es');
+    translate.use(this.browserLang.match(/es|en/) ? this.browserLang : 'es');
+    this.lang();
   }
+
 
   ngOnInit() {
 
@@ -42,6 +45,24 @@ export class NavbarComponent implements OnInit {
         // navZei.className = 'navbar-brand red mr-auto zeiboxH';
       }
     };
+  }
+
+  langChange() {
+    if (this.langEs) {
+      this.translate.use('en');
+      this.langEs = false;
+    } else {
+      this.translate.use('es');
+      this.langEs = true;
+    }
+  }
+
+  lang() {
+    if (this.browserLang == 'es') {
+      this.langEs = true;
+    } else {
+      this.langEs = false;
+    }
   }
 
   handleMenu() {

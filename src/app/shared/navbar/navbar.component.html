@@ -3,14 +3,16 @@
         <a class="navbar-brand" href="#home">
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
-        <a class="float-left">
+
+
+        <!-- <a class="float-left">
             <label for="">
-                  <span style="color: white">{{ 'HOME.SELECT' | translate }} </span>
-                  <select #langselect (change)="translate.use(langselect.value)" name="" id="">
-                  <option *ngFor="let lang of translate.getLangs()" >{{ lang }}</option>
-                  </select>
-                </label>
-        </a>
+                <span style="color: white">{{ 'HOME.SELECT' | translate }} </span>
+                <select #langselect (change)="translate.use(langselect.value)" name="" id="">
+                <option *ngFor="let lang of translate.getLangs()" >{{ lang }}</option>
+                </select>
+            </label>
+        </a> -->
         <!-- <a class="navbar-brand white mr-auto zeiboxH" id="navZeibox" href="#home">
             <span id="items">Z E I B O X</span>
         </a> -->
@@ -25,6 +27,12 @@
         <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
           <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
         </button>
+        <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span> 
+            <img src="../../../assets/img/spain.svg" alt="">
+        </a>
+        <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span> 
+            <img src="../../../assets/img/united-states.svg" alt="">
+        </a>
     </div>
 </nav>
 <nav class="navbar navbarT fixed-top" id="navbar2">
