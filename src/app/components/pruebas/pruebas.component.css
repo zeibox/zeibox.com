@@ -1,0 +1,148 @@
+.div1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 16s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 16s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.div3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 16s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.pos {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.pos2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.capa {
+    position: relative;
+    background-color: rgb(182, 182, 182);
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 400px;
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    0% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    11.11% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    22.22% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    33.33% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        left: 1000px;
+        top: 0px;
+    }
+}
+
+@keyframes example2 {
+    0% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    33.33% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    44.44% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    55.55% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    66.66% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes example3 {
+    0% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    66.661% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    66.66% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+    77.77% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    88.88% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    100% {
+        left: 1000px;
+        top: 0px;
+        opacity: 0;
+    }
+}
