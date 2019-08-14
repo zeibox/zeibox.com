@@ -25,7 +25,7 @@ import { NgwWowModule } from 'ngx-wow';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { CardComponent } from './components/cards/card/card.component';
+import { PruebasComponent } from './components/pruebas/pruebas.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,7 +43,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     BannerComponent,
     Banner1Component,
-    CardComponent
+    PruebasComponent
   ],
   imports: [
     BrowserModule,
