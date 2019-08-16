@@ -1,16 +1,114 @@
-.div1 {
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card:hover .overlay2 {
+    opacity: 0;
+}
+
+#inner {
+    display: table;
+    margin: 0 auto;
+    border: 1px solid black;
+    top: 50%;
+    transform: translateY(800%);
+}
+
+#outer {
+    border: 1px solid red;
+    width: 100%;
+}
+
+.cardFull {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    height: 300px;
+    /* align-items: center; */
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    /* opacidad por defecto */
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    /* opacidad por defecto */
+    opacity: 1;
+}
+
+.test {
     position: relative;
     animation-name: example;
-    animation-duration: 16s;
+    animation-duration: 12s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+}
+
+.test2 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.test3 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
 .div2 {
     width: 100px;
     height: 100px;
     position: relative;
-    animation-name: example2;
+    animation-name: examplex;
     animation-duration: 16s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -20,8 +118,18 @@
     width: 100px;
     height: 100px;
     position: relative;
-    animation-name: example3;
+    animation-name: examplex;
     animation-duration: 16s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.div4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: examplex;
+    animation-duration: 6s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
@@ -41,19 +149,22 @@
 
 .capa {
     position: relative;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(241, 240, 237);
     padding: 0;
     margin: 0;
 }
 
 img {
-    height: 400px;
+    height: 550px;
 }
 
+.texto {
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Standard syntax */
-
-@keyframes example {
+@keyframes examplex {
     0% {
         left: 1000px;
         top: 0px;
@@ -81,68 +192,30 @@ img {
     }
 }
 
-@keyframes example2 {
+@keyframes example {
     0% {
-        left: 1000px;
+        left: 400px;
         top: 0px;
         opacity: 0;
+    }
+    16.66% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
     }
     33.33% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    44.44% {
         left: 0px;
         top: 0px;
         opacity: 1;
     }
-    55.55% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    66.66% {
+    50% {
         left: 1000px;
         top: 0px;
         opacity: 0;
     }
     100% {
+        opacity: 0;
         left: 1000px;
         top: 0px;
-        opacity: 0;
-    }
-}
-
-@keyframes example3 {
-    0% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    66.661% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    66.66% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    77.77% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    88.88% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    100% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
     }
 }
