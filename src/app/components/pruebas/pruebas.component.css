@@ -1,137 +1,99 @@
-.card:hover .overlay {
-    opacity: 1;
+/* --------------------ANIMACION---------------------- */
+
+.active {
+    position: relative;
+    animation-name: activate;
+    animation-duration: 2s;
 }
 
-.card:hover .overlay2 {
+.nule {
+    position: relative;
+    animation-name: nule;
+    animation-duration: 2s;
     opacity: 0;
 }
 
-#inner {
-    display: table;
-    margin: 0 auto;
-    border: 1px solid black;
-    top: 50%;
-    transform: translateY(800%);
+.hidden {
+    position: relative;
+    animation-name: hid;
+    animation-duration: 2s;
+    opacity: 0;
 }
 
-#outer {
-    border: 1px solid red;
-    width: 100%;
+@keyframes activate {
+    0% {
+        left: 400px;
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
 }
 
-.cardFull {
-    padding: 0;
-    margin: 0;
+@keyframes hid {
+    0% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+    }
+    100% {
+        left: 400px;
+        top: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes nule {
+    0% {
+        left: 400px;
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        left: 400px;
+        top: 0px;
+        opacity: 0;
+    }
+}
+
+
+/* --------------------ESTILOS----------------------- */
+
+.info {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.accordion {
+    width: 60%;
+}
+
+.noBorder {
     border: none;
-    border-radius: 0;
-    height: 300px;
-    /* align-items: center; */
+    background-color: rgb(241, 240, 237);
 }
 
-.text {
-    color: white;
-    font-size: 25px;
-    position: absolute;
+.fontTitle {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.vertical-center {
+    margin: 0;
+    position: relative;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    -ms-transform: translateY(-50%);
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
-.text2 {
-    color: white;
-    font-size: 30px;
-    font-weight: bolder;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    /* opacidad por defecto */
-    opacity: 0;
-    transition: .2s ease;
-}
-
-.overlay2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    /* opacidad por defecto */
-    opacity: 1;
-}
-
-.test {
-    position: relative;
-    animation-name: example;
-    animation-duration: 12s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
-
-.test2 {
-    position: relative;
-    animation-name: example;
-    animation-duration: 12s;
-    animation-delay: 4s;
-    animation-iteration-count: infinite;
-    opacity: 0;
-}
-
-.test3 {
-    position: relative;
-    animation-name: example;
-    animation-duration: 12s;
-    animation-delay: 8s;
-    animation-iteration-count: infinite;
-    opacity: 0;
-}
-
-.div2 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: examplex;
-    animation-duration: 16s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
-
-.div3 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: examplex;
-    animation-duration: 16s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
-
-.div4 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: examplex;
-    animation-duration: 6s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+.bg {
+    background-color: rgb(241, 240, 237);
 }
 
 .pos {
@@ -154,68 +116,25 @@
     margin: 0;
 }
 
+
+/* ---------------------TAMAÑO DE LA ANIMACION---------------------- */
+
 img {
-    height: 550px;
+    height: 700px;
 }
 
-.texto {
-    background-color: aquamarine;
-    justify-content: center;
-    align-items: center;
-}
 
-@keyframes examplex {
-    0% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    11.11% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    22.22% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    33.33% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-        left: 1000px;
-        top: 0px;
+/* ---------------------TAMAÑO RESPONSIVO--------------------- */
+
+@media (max-width: 1280px) {
+    .x img {
+        height: 400px;
     }
 }
 
-@keyframes example {
-    0% {
-        left: 400px;
-        top: 0px;
-        opacity: 0;
-    }
-    16.66% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    33.33% {
-        left: 0px;
-        top: 0px;
-        opacity: 1;
-    }
-    50% {
-        left: 1000px;
-        top: 0px;
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-        left: 1000px;
-        top: 0px;
-    }
+
+/* ---------------------TRANSICION DEL LA ANIMACION DEL ACCORDEON------------------- */
+
+.collapsing {
+    transition: 1s ease-in-out;
 }
