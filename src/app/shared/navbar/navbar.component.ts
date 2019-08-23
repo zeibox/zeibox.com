@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,6 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
+@HostListener('window:scroll', ['$event'])
 export class NavbarComponent implements OnInit {
 
   opciones = 'none';
@@ -21,8 +22,8 @@ export class NavbarComponent implements OnInit {
 
 
   ngOnInit() {
-
     window.onscroll = () => {
+      this.doSomething(event);
       const nav = document.querySelector('#navbar');
       const nav2 = document.querySelector('#navbar2');
       // const navt = document.querySelector('#toggle');
@@ -45,6 +46,10 @@ export class NavbarComponent implements OnInit {
         // navZei.className = 'navbar-brand red mr-auto zeiboxH';
       }
     };
+  }
+
+  doSomething(event) {
+    console.log('Scroll Event', window.pageYOffset );
   }
 
   langChange() {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-pruebas',
@@ -18,6 +18,7 @@ export class PruebasComponent implements OnInit {
     'APLICACIONES MULTIPLATAFORMA'
   ];
 
+  onPage = true;
   anim1: string;
   anim2: string;
   anim3: string;
@@ -27,21 +28,32 @@ export class PruebasComponent implements OnInit {
   t2: any;
   t3: any;
 
-  constructor() { }
+  constructor(public el: ElementRef) { }
 
   ngOnInit() {
+    this.anim1 = 'nule';
+    this.anim2 = 'nule';
+    this.anim3 = 'nule';
     this.start();
   }
 
-// CAMBIADORES DE CLASES (clases que impactan en la animación)
+// CAMBIADORES DE CLASES (que impactan en la animación)
 
   start() {
-    this.anim1 = 'active';
-    this.anim2 = 'nule';
-    this.anim3 = 'nule';
-    this.timeout1();
-    console.log('trigger btn1');
+    const componentPosition = this.el.nativeElement.offsetTop;
+
+    if (window.scrollY >= 1200 ) {
+      if (this.onPage) {
+        this.onPage = false;
+        this.anim1 = 'active';
+        this.anim2 = 'nule';
+        this.anim3 = 'nule';
+        this.timeout1();
+        console.log('trigger btn1');
+      }
+    }
   }
+
 
   btn1() {
     this.clearTimeouts();
