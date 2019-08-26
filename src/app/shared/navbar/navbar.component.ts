@@ -20,10 +20,8 @@ export class NavbarComponent implements OnInit {
     this.lang();
   }
 
-
   ngOnInit() {
     window.onscroll = () => {
-      this.doSomething(event);
       const nav = document.querySelector('#navbar');
       const nav2 = document.querySelector('#navbar2');
       // const navt = document.querySelector('#toggle');
