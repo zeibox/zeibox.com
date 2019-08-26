@@ -32,17 +32,10 @@ export class ContactComponent implements OnInit {
 
   onSubmit() {
     this.contactService.addContact(this.message.value);
-    this.message.reset( {
-      interest: "",
-      fullName: {
-        name: "",
-        lastName: "",
-      },
-      email: "",
-      phone: "",
-      city: "",
-      textarea: ""
+    this.contactService.sendMessage( this.message.value ).subscribe(() => {
     });
+
+    this.message.reset();
   }
 
 
