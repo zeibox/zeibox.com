@@ -4,12 +4,106 @@
         "TEXT": "Esta demo fue creada con ngx-translate",
         "SELECT": "Seleccionar lenguaje"
     },
-    "BANNER1": {
-        "TEXT1": "SITIOS WEB, APLICACIONES MÓVILES Y EMPRESARIALES",
-        "TEXT2": "DESARROLLO DE SOFTWARE PERSONALIZADO"
-    },
     "SLIDER": {
         "TEXT1": "SOLUCIONES DIGITALES",
         "TEXT2": "¿Quieres llevar tu empresa al próximo nivel?"
+    },
+    "BANNER1": {
+        "TEXT1": "SITIOS WEB, APLICACIONES MÓVILES Y EMPRESARIALES",
+        "TEXT2": "DESARROLLO DE SOFTWARE PERSONALIZADO",
+        "TEXT3": "Brindamos servicios completos que cubren todos los aspectos de la ingenieria del software"
+    },
+    "ANIM": {
+        "TITLE-A": "TEXTO",
+        "TITLE-B": "TEXTO ABAJO",
+        "BOTON-1": "DESARROLLO WEB",
+        "TEXTO-1": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "BOTON-2": "DESARROLLO MOVIL",
+        "TEXTO-2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "BOTON-3": "APPS MULTIPLATAFORMA",
+        "TEXTO-3": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+    },
+    "BANNER": {
+        "TEXT1": "Tener una aplicación web o móvil, puede aumentar el alcance de tu emprendimiento y mejorar el compromiso con el cliente.",
+        "TEXT2": "Con ",
+        "TEXT3": "Zeibox",
+        "TEXT4": " tendrás un equipo especializado para desarrollar tus proyectos."
+    },
+    "WORKFLUX": {
+        "TITLE": "Como trabajamos",
+        "TEXT1A": "RELEVAMIENTO",
+        "TEXT1B": "1",
+        "TEXT1C": "Documentamos la información necesaria para tu emprendimiento.",
+        "TEXT2A": "ESTRATEGIA",
+        "TEXT2B": "2",
+        "TEXT2C": "Planificamos tu proyecto según tus intereses e intenciones.",
+        "TEXT3A": "DESARROLLO",
+        "TEXT3B": "3",
+        "TEXT3C": "Creamos tú aplicacion a medida.",
+        "TEXT4A": "SOPORTE",
+        "TEXT4B": "4",
+        "TEXT4C": "Brindamos capacitación y asesoramiento acorde a tus necesidades."
+    },
+    "CARDS": {
+        "CARD1": "DESARROLLO WEB",
+        "CARD2": "APLICACIONES MOVILES",
+        "CARD3": "E-COMMERCE",
+        "CARD4": "SOFTWARE",
+        "CARD5": "MARKETING DIGITAL",
+        "CARD6": "ASESORAMIENTO"
+    },
+    "CARDS2": [
+        { "TITLE": "DESARROLLO WEB" },
+        { "TITLE": "APLICACIONES MOVILES" },
+        { "TITLE": "E-COMMERCE" },
+        { "TITLE": "SOFTWARE" },
+        { "TITLE": "MARKETING DIGITAL" },
+        { "TITLE": "ASESORAMIENTO" }
+    ],
+    "CONTACT": {
+        "TITLE": "Comienza con tu emprendimiento. ¡Escríbenos! ",
+        "TITLE2": "¡Escríbenos! ",
+        "NAME": "Nombre",
+        "LAST": "Apellido",
+        "EMAIL": "Email",
+        "SEARCH": "¿Qué estás buscando?",
+        "OP1": "Desarrollo Web",
+        "OP2": "Aplicaciones Moviles",
+        "OP3": "Asesoramiento",
+        "OP4": "Marketing Digital",
+        "OP5": "Redes Sociales",
+        "INFO": "Más información",
+        "SEND": "Enviar"
+    },
+    "FOOTER": {
+        "TITLEa": "ESPECIALIDAD",
+        "TEXTa1": "Aplicaciones Web",
+        "TEXTa2": "Aplicaciones Móviles",
+        "TEXTa3": "Intranet",
+
+        "TITLEb": "SERVICIOS",
+        "TEXTb1": "Desarrollo Web",
+        "TEXTb2": "Desarrollo Movil",
+        "TEXTb3": "Desarrollo de Software Empresarial",
+        "TEXTb4": "Mantenimiento y Soporte",
+        "TEXTb5": "Asesoramiento",
+
+        "TITLEc": "TECNOLOGIAS",
+        "TEXTc1": "Angular",
+        "TEXTc2": "Node-js",
+        "TEXTc3": "Express",
+        "TEXTc4": "Java",
+        "TEXTc5": "Javascript",
+        "TEXTc6": "Typescript",
+        "TEXTc7": "Ionic",
+        "TEXTc8": "Cordova",
+
+        "TITLEd": "PLATAFORMAS",
+        "TEXTd1": "Ios",
+        "TEXTd2": "Android",
+        "TEXTd3": "Windows",
+        "TEXTd4": "Linux",
+
+        "POLICY": "Política de Privacidad"
     }
 }
