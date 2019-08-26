@@ -1,8 +1,11 @@
 import { Injectable } from '@angular/core';
-import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
 import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+
+import { HttpClient } from '@angular/common/http';
+
 
 @Injectable({
   providedIn: 'root'
@@ -26,7 +29,7 @@ export class ContactsService {
     blocked: [ false ]
   });
 
-  constructor( private readonly afs: AngularFirestore, private fb: FormBuilder ) {
+  constructor( private readonly afs: AngularFirestore, private fb: FormBuilder, private _http: HttpClient ) {
     this.contactsCollection  = afs.collection<any>('contacts');
     this.contacts = this.contactsCollection.snapshotChanges().pipe(map(
       actions => actions.map( a => {
@@ -37,7 +40,9 @@ export class ContactsService {
     ));
   }
 
-
+  sendMessage( body ) {
+    return this._http.post( 'https://us-central1-zeibox.cloudfunctions.net/sendMail?dest=' + body, body );
+  }
 
   getContacts() {
     return this.contacts = this.contactsCollection.snapshotChanges()

@@ -4,12 +4,12 @@
         <a class="navbar-brand" href="#home">
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
-        <div id="menu" class="cent" [ngStyle]=" { 'display': opciones } ">
+        <div id="menu" class="animated fadeIn" [ngStyle]=" { 'display': opciones } ">
             <a class="navbar-brand white" id="navText" href="#Servicios">
                 <span>Servicios</span>
             </a>
             <a class="navbar-brand white" id="navText" href="#ComoTrabajamos">
-                <span>¿Como trabajamos?</span>
+                <span>¿Cómo trabajamos?</span>
             </a>
         </div>
         <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
@@ -18,10 +18,10 @@
     </div>
     <div class="container col-1" style="padding-right: 5%">
         <div class="row">
-            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span> 
+            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span>
             <img src="../../../assets/img/spain.svg" alt="">
         </a>
-            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span> 
+            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span>
             <img src="../../../assets/img/united-states.svg" alt="">
         </a>
         </div>
@@ -33,10 +33,10 @@
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
         <div style="padding-left: 20px">
-            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span> 
+            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span>
                 <img src="../../../assets/img/spain.svg" alt="">
             </a>
-            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span> 
+            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span>
                 <img src="../../../assets/img/united-states.svg" alt="">
             </a>
         </div>
