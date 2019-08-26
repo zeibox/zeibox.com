@@ -17,3 +17,7 @@
 .c2 {
     z-index: 10;
 }
+
+.container-fluid {
+    /* background-image: linear-gradient(rgb(241, 240, 237), white); */
+}

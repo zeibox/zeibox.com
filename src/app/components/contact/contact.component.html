@@ -4,14 +4,14 @@
             <div class="d-none d-md-block col-sm-12 col-md-6">
                 <div class="card vcenter  border-0" style="background-color: rgb(241, 240, 237)">
                     <div class="card-body">
-                        <h1 style="font-size: 50px ">Comienza con tu emprendimiento. ¡Escríbenos! </h1>
+                        <h1 style="font-size: 50px ">{{'CONTACT.TITLE' | translate}}</h1>
                     </div>
                 </div>
             </div>
             <div class="d-md-none col-sm-12 col-md-6  ">
                 <div class="card vcenter  border-0" style="background-color: rgb(241, 240, 237)">
                     <div class="card-body">
-                        <h1 style="font-size: 40px ">¡Escríbenos! </h1>
+                        <h1 style="font-size: 40px ">{{'CONTACT.TITLE2' | translate}}</h1>
                     </div>
                 </div>
             </div>
@@ -19,35 +19,35 @@
 
                 <div class="form-row" formGroupName="fullName">
                     <div class="form-group col-md-6 ">
-                        <label>Nombre*</label>
-                        <input type="text " class="form-control rounded border border-secondary " formControlName="name" placeholder="Nombre ">
+                        <label>{{'CONTACT.NAME' | translate}}*</label>
+                        <input type="text " class="form-control rounded border border-secondary " formControlName="name" placeholder="{{'CONTACT.NAME' | translate}}">
                     </div>
                     <div class="form-group col-md-6 ">
-                        <label>Apellido</label>
-                        <input type="text " class="form-control rounded border border-secondary " formControlName="lastName" placeholder="Apellido ">
+                        <label>{{'CONTACT.LAST' | translate}}</label>
+                        <input type="text " class="form-control rounded border border-secondary " formControlName="lastName" placeholder="{{'CONTACT.LAST' | translate}} ">
                     </div>
                 </div>
                 <div class="form-row ">
                     <div class="form-group col-md-6 ">
-                        <label>Email*</label>
-                        <input type="email " class="form-control rounded border border-secondary " formControlName="email" placeholder="Email ">
+                        <label>{{'CONTACT.EMAIL' | translate}}*</label>
+                        <input type="email " class="form-control rounded border border-secondary " formControlName="email" placeholder="{{'CONTACT.EMAIL' | translate}}">
                     </div>
                     <div class="form-group col-md-6 ">
-                        <label>¿Qué estás buscando?</label>
+                        <label>{{'CONTACT.SEARCH' | translate}}</label>
                         <select formControlName="interest" class="form-control rounded border border-secondary ">
-                      <option>Desarrollo web</option>
-                      <option>App Móviles</option>
-                      <option>Asesoramiento</option>
-                      <option>Marketing Digital</option>
-                      <option>Redes Sociales</option>
-                    </select>
+                          <option>{{'CONTACT.OP1' | translate}}</option>
+                          <option>{{'CONTACT.OP2' | translate}}</option>
+                          <option>{{'CONTACT.OP3' | translate}}</option>
+                          <option>{{'CONTACT.OP4' | translate}}</option>
+                          <option>{{'CONTACT.OP5' | translate}}</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-group ">
-                    <label>Más informacion</label>
+                    <label>{{'CONTACT.INFO' | translate}}</label>
                     <textarea class="form-control rounded border border-secondary " formControlName="textarea" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-danger rounded enviarBtn">Enviar</button>
+                <button type="submit" class="btn btn-danger rounded enviarBtn">{{'CONTACT.SEND' | translate}}</button>
             </form>
 
         </div>

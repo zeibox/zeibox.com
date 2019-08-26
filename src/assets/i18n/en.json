@@ -6,10 +6,104 @@
     },
     "BANNER1": {
         "TEXT1": "WEBSITES, MOBILE & BUSINESS APLICATIONS",
-        "TEXT2": "CUSTOM SOFTWARE DEVELOMENT"
+        "TEXT2": "CUSTOM SOFTWARE DEVELOMENT",
+        "TEXT3": "We provide complete services that cover all aspects of software engineering"
     },
     "SLIDER": {
         "TEXT1": "DIGITAL SOLUTIONS",
         "TEXT2": "¿Do you want to take your company to the next level?"
+    },
+    "CARDS": {
+        "CARD1": "WEB DEVELOPMENT",
+        "CARD2": "MOBILE APLICATIONS",
+        "CARD3": "E-COMMERCE",
+        "CARD4": "SOFTWARE",
+        "CARD5": "DIGITAL MARKETING",
+        "CARD6": "COUNSELING"
+    },
+    "CARDS2": [
+        { "TITLE": "DESARROLLO WEB" },
+        { "TITLE": "APLICACIONES MOVILESSSS" },
+        { "TITLE": "E-COMMERCE" },
+        { "TITLE": "SOFTWARE" },
+        { "TITLE": "MARKETING DIGITAL" },
+        { "TITLE": "ASESORAMIENTO" }
+    ],
+    "BANNER": {
+        "TEXT1": "Having a web or mobile application, can increase the scope of your venture and improve customer engagement.",
+        "TEXT2": "With ",
+        "TEXT3": "Zeibox",
+        "TEXT4": " you will have a specialized team to develop your projects."
+    },
+    "ANIM": {
+        "TITLE-A": "TEXT",
+        "TITLE-B": "TEXT DOWN",
+        "BOTON-1": "WEB DEVELOPMENT",
+        "TEXTO-1": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "BOTON-2": "MOBILE DEVELOPMENT",
+        "TEXTO-2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "BOTON-3": "MULTIPLATFORM APPS",
+        "TEXTO-3": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+    },
+    "WORKFLUX": {
+        "TITLE": "How we work",
+        "TEXT1A": "RELEVATION",
+        "TEXT1B": "1",
+        "TEXT1C": "We document the information necessary for your venture.",
+        "TEXT2A": "ESTRATEGY",
+        "TEXT2B": "2",
+        "TEXT2C": "We plan your project according to your interests and intentions.",
+        "TEXT3A": "DEVELOPMENT",
+        "TEXT3B": "3",
+        "TEXT3C": "We create your custom aplication",
+        "TEXT4A": "SUPPORT",
+        "TEXT4B": "4",
+        "TEXT4C": "We provide training and counseling according to your needs."
+    },
+    "CONTACT": {
+        "TITLE": "Start with your venture. ¡Write us!",
+        "TITLE2": " ¡Write us! ",
+        "NAME": "Name",
+        "LAST": "Lastname",
+        "EMAIL": "Email",
+        "SEARCH": "¿What are you looking for?",
+        "OP1": "Web Development",
+        "OP2": "Mobile Aplications",
+        "OP3": "Counseling",
+        "OP4": "Digital Marketing",
+        "OP5": "Social Media",
+        "INFO": "More information",
+        "SEND": "Send"
+    },
+    "FOOTER": {
+        "TITLEa": "SPECIALTY",
+        "TEXTa1": "Web Aplications",
+        "TEXTa2": "Mobile Aplications",
+        "TEXTa3": "Intranet",
+
+        "TITLEb": "SERVICES",
+        "TEXTb1": "Web Development",
+        "TEXTb2": "Mobile Development",
+        "TEXTb3": "Business Aplication Development",
+        "TEXTb4": "Maintenance and Support",
+        "TEXTb5": "Counseling",
+
+        "TITLEc": "TECHNOLOGIES",
+        "TEXTc1": "Angular",
+        "TEXTc2": "Node-js",
+        "TEXTc3": "Express",
+        "TEXTc4": "Java",
+        "TEXTc5": "Javascript",
+        "TEXTc6": "Typescript",
+        "TEXTc7": "Ionic",
+        "TEXTc8": "Cordova",
+
+        "TITLEd": "PLATFORMS",
+        "TEXTd1": "Ios",
+        "TEXTd2": "Android",
+        "TEXTd3": "Windows",
+        "TEXTd4": "Linux",
+
+        "POLICY": "Privacy Policy"
     }
 }
