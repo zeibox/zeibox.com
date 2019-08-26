@@ -26,6 +26,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { PruebasComponent } from './components/pruebas/pruebas.component';
+import { Pruebas2Component } from './components/pruebas2/pruebas2.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,7 +44,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     BannerComponent,
     Banner1Component,
-    PruebasComponent
+    PruebasComponent,
+    Pruebas2Component
   ],
   imports: [
     BrowserModule,

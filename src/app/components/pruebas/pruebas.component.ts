@@ -28,7 +28,7 @@ export class PruebasComponent implements OnInit {
   t2: any;
   t3: any;
 
-  constructor(public el: ElementRef) { }
+  constructor() { }
 
   ngOnInit() {
     this.anim1 = 'nule';
@@ -40,18 +40,11 @@ export class PruebasComponent implements OnInit {
 // CAMBIADORES DE CLASES (que impactan en la animación)
 
   start() {
-    const componentPosition = this.el.nativeElement.offsetTop;
-
-    if (window.scrollY >= 1200 ) {
-      if (this.onPage) {
-        this.onPage = false;
         this.anim1 = 'active';
         this.anim2 = 'nule';
         this.anim3 = 'nule';
         this.timeout1();
         console.log('trigger btn1');
-      }
-    }
   }
 
 

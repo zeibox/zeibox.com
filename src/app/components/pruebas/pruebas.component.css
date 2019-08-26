@@ -62,6 +62,12 @@
 
 /* --------------------ESTILOS----------------------- */
 
+.radio {
+    border: 1px;
+    border-bottom-left-radius: 600px 300px;
+    border-bottom-right-radius: 600px 300px;
+}
+
 .info {
     padding-left: 40px;
     padding-right: 80px;
@@ -84,6 +90,26 @@
 }
 
 .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.vertical-center2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.vertical-center3 {
     margin: 0;
     position: relative;
     top: 50%;
