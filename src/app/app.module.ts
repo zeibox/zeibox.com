@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { CardsComponent } from './components/cards/cards.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { WorkfluxComponent } from './components/workflux/workflux.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -37,7 +36,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    CardsComponent,
     SliderComponent,
     WorkfluxComponent,
     FooterComponent,
