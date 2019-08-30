@@ -14,14 +14,14 @@
         "TEXT3": "Brindamos servicios completos que cubren todos los aspectos de la ingenieria del software"
     },
     "ANIM": {
-        "TITLE-A": "TEXTO",
-        "TITLE-B": "TEXTO ABAJO",
+        "TITLE-A": "QUE HACEMOS",
+        "TITLE-B": "",
         "BOTON-1": "DESARROLLO WEB",
-        "TEXTO-1": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "TEXTO-1": "Aconsejamos a nuestros clientes para que tomen las mejores decisiones digitales y se centren en hacer crecer su negocio. Crear una aplicacion Web es el mejor camino.",
         "BOTON-2": "DESARROLLO MOVIL",
-        "TEXTO-2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "TEXTO-2": "El futuro está en los Smartphones. Cada vez se hacen mas parte de nuestra vida y tu empresa debe adaptarse rapidamente a esta realidad.",
         "BOTON-3": "APPS MULTIPLATAFORMA",
-        "TEXTO-3": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "TEXTO-3": "Creamos aplicaciones que responden a multiples dispositivos, es decir, funcionan y se ven bien tanto en una PC como en una tablet o celular."
     },
     "BANNER": {
         "TEXT1": "Tener una aplicación web o móvil, puede aumentar el alcance de tu emprendimiento y mejorar el compromiso con el cliente.",
@@ -61,17 +61,19 @@
         { "TITLE": "ASESORAMIENTO" }
     ],
     "CONTACT": {
-        "TITLE": "Comienza con tu emprendimiento. ¡Escríbenos! ",
+        "TITLE": "Comienza con tu emprendimiento.",
         "TITLE2": "¡Escríbenos! ",
         "NAME": "Nombre",
         "LAST": "Apellido",
         "EMAIL": "Email",
         "SEARCH": "¿Qué estás buscando?",
+        "DEFAULT": "Seleccionar",
         "OP1": "Desarrollo Web",
         "OP2": "Aplicaciones Moviles",
         "OP3": "Asesoramiento",
         "OP4": "Marketing Digital",
         "OP5": "Redes Sociales",
+        "OTHER": "Otro",
         "INFO": "Más información",
         "SEND": "Enviar"
     },

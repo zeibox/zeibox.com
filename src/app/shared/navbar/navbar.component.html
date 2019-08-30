@@ -17,12 +17,12 @@
         </button>
     </div>
     <div class="container col-1" style="padding-right: 5%">
-        <div class="row">
-            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span>
-            <img src="../../../assets/img/spain.svg" alt="">
+        <div class="row lang">
+            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
+            <!-- <img src="../../../assets/img/united-states.svg" alt=""> -->
         </a>
-            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span>
-            <img src="../../../assets/img/united-states.svg" alt="">
+            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
+            <!-- <img src="../../../assets/img/spain.svg" alt=""> -->
         </a>
         </div>
     </div>
@@ -32,33 +32,13 @@
         <a class="navbar-brand" routerLink="home">
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
-        <div style="padding-left: 20px">
-            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">ES </span>
-                <img src="../../../assets/img/spain.svg" alt="">
+        <div class="lang" style="padding-left: 20px">
+            <a class="flags lang" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
+                <!-- <img src="../../../assets/img/united-states.svg" alt=""> -->
             </a>
-            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">EN </span>
-                <img src="../../../assets/img/united-states.svg" alt="">
+            <a class="flags lang" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
+                <!-- <img src="../../../assets/img/spain.svg" alt=""> -->
             </a>
         </div>
-        <!-- <a class="navbar-brand white zeiboxH" id="navText" routerLink="home">
-            <span id="items">Z E I B O X</span>
-        </a> -->
-        <!-- <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
-                <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
-              </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active px-2">
-                    <a class="navbar-brand white" id="navText" routerLink="#/home">
-                        <span>QUIENES SOMOS</span>
-                    </a>
-                </li>
-                <li class="nav-item active px-2">
-                    <a class="navbar-brand white" id="navText" routerLink="#/home">
-                        <span>SERVICIOS</span>
-                    </a>
-                </li>
-            </ul>
-        </div> -->
     </div>
 </nav>

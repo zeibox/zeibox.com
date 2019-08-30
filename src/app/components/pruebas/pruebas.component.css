@@ -113,11 +113,13 @@
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 30%;
     -ms-transform: translateY(-50%);
     transform: translate(-50%, -50%);
     z-index: 1;
 }
+
+.vertical-center2 img {}
 
 .vertical-center3 {
     margin: 0;
@@ -152,8 +154,14 @@
 }
 
 h1 {
+    color: rgb(71, 71, 71);
     text-shadow: 2px 2px 2px rgb(170, 170, 170);
 }
+
+
+/* button,
+h1,
+.info {} */
 
 
 /* ---------------------TAMAÑO DE LA ANIMACION---------------------- */
@@ -177,6 +185,15 @@ img {
     .xx img {
         height: 500px;
     }
+    .xxx img {
+        height: 1000px;
+    }
+    .vertical-center2 {
+        left: 50%;
+    }
+    .vertical-center {
+        left: 60%;
+    }
     .fontText {
         font-size: 12px;
         font-weight: 500;
@@ -186,7 +203,7 @@ img {
         font-weight: 500;
     }
     h1 {
-        font-size: 18px;
+        font-size: 24px;
         padding-bottom: 10px;
     }
     .accordion {
@@ -208,6 +225,15 @@ img {
     .xx img {
         height: 700px;
     }
+    .xxx img {
+        height: 1200px;
+    }
+    .vertical-center2 {
+        left: 50%;
+    }
+    .vertical-center {
+        left: 60%;
+    }
     .fontText {
         font-size: 16px;
         font-weight: 500;
@@ -217,7 +243,7 @@ img {
         font-weight: 500;
     }
     h1 {
-        font-size: 24px;
+        font-size: 28px;
         padding-bottom: 10px;
     }
     .accordion {
@@ -239,6 +265,15 @@ img {
     .xx img {
         height: 800px;
     }
+    .xxx img {
+        height: 1400px;
+    }
+    .vertical-center2 {
+        left: 50%;
+    }
+    .vertical-center {
+        left: 60%;
+    }
     .fontText {
         font-size: 18px;
         font-weight: 500;
@@ -248,7 +283,7 @@ img {
         font-weight: 500;
     }
     h1 {
-        font-size: 26px;
+        font-size: 30px;
         padding-bottom: 10px;
     }
     .accordion {
@@ -262,24 +297,24 @@ img {
 @media (min-width: 1000px) {
     .x img {
         width: auto;
-        height: 750px;
+        height: 550px;
     }
     .xx {
-        height: 750px;
+        height: 550px;
     }
-    .xx img {
-        height: 750px;
+    .xxx img {
+        height: 1200px;
     }
     .fontText {
         font-size: 18px;
         font-weight: 500;
     }
     .fontTitle {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 500;
     }
     h1 {
-        font-size: 26px;
+        font-size: 32px;
         padding-bottom: 10px;
     }
     .accordion {
@@ -290,7 +325,7 @@ img {
     }
 }
 
-@media (min-width: 1282px) {
+@media (min-width: 1500px) {
     .x img {
         width: auto;
         height: 950px;
@@ -300,6 +335,12 @@ img {
     }
     .xx img {
         height: 950px;
+    }
+    .xxx img {
+        height: 1750px;
+    }
+    .xx {
+        z-index: 2;
     }
     .fontText {
         font-size: 18px;
@@ -326,4 +367,58 @@ img {
 
 .collapsing {
     transition: 1s ease-in-out;
+}
+
+
+/*----------------COMPONENTE BANNER-------------------------*/
+
+#banner {
+    /* background: url(https://www.torchgroup.com/wp-content/uploads/2019/01/fee-structure-graphic.jpg) no-repeat center center; */
+    height: 250px;
+    background-size: cover;
+    position: relative;
+}
+
+#layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-banner,
+.text-banner2 {
+    color: rgb(65, 65, 65);
+}
+
+.text-banner2 {
+    z-index: 20;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .text-banner {
+        font-size: 1.4em;
+    }
+    .text-banner2 {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .text-banner {
+        font-size: 1.8em;
+    }
+    .text-banner2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .text-banner {
+        font-size: 2.5em;
+    }
+    .text-banner2 {
+        font-size: 1.5em;
+    }
 }
