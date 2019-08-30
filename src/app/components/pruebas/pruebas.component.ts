@@ -8,9 +8,9 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 export class PruebasComponent implements OnInit {
 
   imagen: string[] = [
-    'https://www.wolox.com.ar/assets/img-main-wwd-muzi-8ef9358128.png',
-    'https://www.wolox.com.ar/assets/img-main-wwd-greenco-dd1eff9fd0.png',
-    'https://www.wolox.com.ar/assets/img-main-wwd-prime-b6b14a09fd.png'];
+    '../../../assets/img/tablet1.png',
+    '../../../assets/img/mobile.png',
+    '../../../assets/img/monitor.png'];
 
   textos: string[] = [
     'APLICACIONES MOVILES',
@@ -104,24 +104,24 @@ export class PruebasComponent implements OnInit {
     boton3.click();
   }
 
-// TIMEOUTS, cada 5000 clickea el boton que ejecuta el metodo correspondiente
+// TIMEOUTS, cada 6000 clickea el boton que ejecuta el metodo correspondiente
   timeout1() {
     this.t1 = setTimeout(() => {
         console.log('trigger btn2');
         this.triggerBtn2();
-    }, 5000);
+    }, 6000);
   }
   timeout2() {
     this.t2 = setTimeout(() => {
         console.log('trigger btn3');
         this.triggerBtn3();
-    }, 5000);
+    }, 6000);
   }
   timeout3() {
     this.t3 = setTimeout(() => {
         console.log('trigger btn1');
         this.triggerBtn1();
-    }, 5000);
+    }, 6000);
   }
 
 // CLEAR TIMEOUTS PARA QUE NO SE HAGA UN LOOP DE TIMEOUTS AL CLICKEAR

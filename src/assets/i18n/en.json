@@ -36,14 +36,14 @@
         "TEXT4": " you will have a specialized team to develop your projects."
     },
     "ANIM": {
-        "TITLE-A": "TEXT",
-        "TITLE-B": "TEXT DOWN",
+        "TITLE-A": "WHAT WE DO",
+        "TITLE-B": "",
         "BOTON-1": "WEB DEVELOPMENT",
-        "TEXTO-1": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "TEXTO-1": "We advise our clients to make the best digital decisions and focus on growing their business. Creating a web application is the best way.",
         "BOTON-2": "MOBILE DEVELOPMENT",
-        "TEXTO-2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.",
+        "TEXTO-2": "The future is in Smartphones. Every time they become more part of our life and your company must adapt quickly to this reality.",
         "BOTON-3": "MULTIPLATFORM APPS",
-        "TEXTO-3": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "TEXTO-3": "We create applications that respond to multiple devices, therefore, they work and look good on a PC, tablet or cell phone."
     },
     "WORKFLUX": {
         "TITLE": "How we work",
@@ -61,17 +61,19 @@
         "TEXT4C": "We provide training and counseling according to your needs."
     },
     "CONTACT": {
-        "TITLE": "Start with your venture. ¡Write us!",
+        "TITLE": "Start with your venture.",
         "TITLE2": " ¡Write us! ",
         "NAME": "Name",
         "LAST": "Lastname",
         "EMAIL": "Email",
         "SEARCH": "¿What are you looking for?",
+        "DEFAULT": "Select",
         "OP1": "Web Development",
         "OP2": "Mobile Aplications",
         "OP3": "Counseling",
         "OP4": "Digital Marketing",
         "OP5": "Social Media",
+        "OTHER": "Other",
         "INFO": "More information",
         "SEND": "Send"
     },

@@ -1,69 +1,88 @@
-<div class="container-fluid bg" style="overflow: hidden;">
-    <div class="row p-0">
-        <div class="col col-12 col-lg-5 bg p-0 xx">
-            <div class="container vertical-center3">
-                <div class="vertical-center2 xx">
-                    <img src="../../../assets/img/circle.svg" alt="">
-                </div>
-                <div class="accordion vertical-center" id="accordionExample">
-                    <h1>{{'ANIM.TITLE-A' | translate}}<br>{{'ANIM.TITLE-B' | translate}}</h1>
-                    <div class="card noBorder">
-                        <div class="card-header noBorder px-0" id="headingOne">
-                            <h2 class="mb-0 noBorder fontTitle">
-                                <button class="btn btn-link fontTitle noBorder" id="boton1" (click)="this.btn1()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <span style="font-weight: 900;">-</span> {{'ANIM.BOTON-1' | translate}}
-                              </button>
-                            </h2>
-                        </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body fontText noBorder info">
-                                {{'ANIM.TEXTO-1' | translate}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card noBorder">
-                        <div class="card-header noBorder px-0" id="headingTwo">
-                            <h2 class="mb-0 noBorder  ">
-                                <button class="btn btn-link collapsed fontTitle noBorder" id="boton2" (click)="this.btn2()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span style="font-weight: 900;">-</span> {{'ANIM.BOTON-2' | translate}}
-                              </button>
-                            </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body fontText noBorder info">
-                                {{'ANIM.TEXTO-2' | translate}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card noBorder">
-                        <div class="card-header noBorder px-0" id="headingThree">
-                            <h2 class="mb-0 noBorder">
-                                <button #myDiv class="btn btn-link collapsed fontTitle noBorder" id="boton3" (click)="this.btn3()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span style="font-weight: 900;">-</span> {{'ANIM.BOTON-3' | translate}}
-                              </button>
-                            </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body fontText noBorder info">
-                                {{'ANIM.TEXTO-3' | translate}}
-                            </div>
-                        </div>
+<div class="container-fluid px-0" style="background-color: rgb(241, 240, 237); overflow: hidden; z-index: 2;">
+    <div class="container-fluid pt-5" style="background-color: transparent; z-index: 3;">
+        <div id="banner">
+            <div id="layer">
+                <div class="vcenter text-white text-center">
+                    <div class="wow animated fadeIn" data-wow-iteration="1" style="z-index: 5;">
+                        <p><span class=" text-banner "> {{ 'BANNER1.TEXT1' | translate }} <br>
+                            {{ 'BANNER1.TEXT2' | translate }}</span></p>
+                        <p>
+                            <span class="text-banner2" style="z-index: 5;">{{ 'BANNER1.TEXT3' | translate }}</span></p>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="capa col col-12 col-lg-7 px-0">
-            <div class="pos x">
-                <img src="{{imagen[0]}}" [class]='anim1' alt="no pic">
-            </div>
-            <div class="pos2 x">
-                <img src="{{imagen[1]}}" [class]='anim2' alt="no pic">
-            </div>
-            <div class="pos2 x">
-                <img src="{{imagen[2]}}" [class]='anim3' alt="no pic">
             </div>
         </div>
     </div>
-    <!-- <div class="row bg radio" style="height: 150px;"></div> -->
+    <div class=" container-fluid bg " style="z-index: 1;">
+        <div class="row p-0 ">
+            <div class="col col-12 col-lg-5 bg p-0 xx">
+                <div class="container vertical-center3">
+                    <div class="vertical-center2 xxx" style="overflow-x: hidden; overflow-y: visible">
+                        <img src="http://www.sclance.com/pngs/tumblr-circle-png/tumblr_circle_png_1422203.png " alt=" ">
+                    </div>
+                    <!-- <div class="vertical-center2 xx ">
+                        <img src="../../../assets/img/circle.svg " alt="">
+                    </div> -->
+                    <div class="accordion vertical-center" id="accordionExample">
+                        <h1>{{'ANIM.TITLE-A' | translate}}<br>{{'ANIM.TITLE-B' | translate}}</h1>
+                        <div class="card noBorder">
+                            <div class="card-header noBorder px-0" id="headingOne">
+                                <h2 class="mb-0 noBorder fontTitle">
+                                    <button class="btn btn-link fontTitle noBorder" id="boton1" (click)="this.btn1()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     {{'ANIM.BOTON-1' | translate}}
+                              </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body fontText noBorder info">
+                                    {{'ANIM.TEXTO-1' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card noBorder">
+                            <div class="card-header noBorder px-0" id="headingTwo">
+                                <h2 class="mb-0 noBorder  ">
+                                    <button class="btn btn-link collapsed fontTitle noBorder" id="boton2" (click)="this.btn2()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                     {{'ANIM.BOTON-2' | translate}}
+                              </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body fontText noBorder info">
+                                    {{'ANIM.TEXTO-2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card noBorder">
+                            <div class="card-header noBorder px-0" id="headingThree">
+                                <h2 class="mb-0 noBorder">
+                                    <button #myDiv class="btn btn-link collapsed fontTitle noBorder" id="boton3" (click)="this.btn3()" style="padding-left: 0" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                     {{'ANIM.BOTON-3' | translate}}
+                              </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body fontText noBorder info">
+                                    {{'ANIM.TEXTO-3' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="capa col col-12 col-lg-7 px-0 overflow-hidden">
+                <div class="pos x " style="z-index: 10 ">
+                    <img src="{{imagen[0]}} " [class]='anim1' alt="no pic ">
+                </div>
+                <div class="pos2 x ">
+                    <img src="{{imagen[1]}} " [class]='anim2' alt="no pic ">
+                </div>
+                <div class="pos2 x ">
+                    <img src="{{imagen[2]}} " [class]='anim3' alt="no pic ">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row bg radio " style="height: 150px; "></div> -->
+    </div>
 </div>

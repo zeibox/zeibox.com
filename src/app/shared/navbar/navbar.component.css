@@ -4,6 +4,15 @@
     border-radius: 50%; */
 }
 
+.flags {
+    border-bottom: 2px solid white;
+}
+
+.flags:hover {
+    border-bottom: 3px solid white;
+    font-size: 20px;
+}
+
 
 /* cambia letras del navbar */
 
@@ -75,15 +84,24 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#menu {
+
+/* #menu {
     right: 0%;
     top: 100px;
     display: flex;
     justify-content: center;
     transform: translateX(70%);
-}
+} */
 
 .zeiboxH {
     font-size: 30px;
     font-weight: 600;
+}
+
+.lang {
+    cursor: pointer;
+}
+
+button {
+    outline: none;
 }
