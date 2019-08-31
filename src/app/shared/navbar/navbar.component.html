@@ -5,12 +5,14 @@
             <img src="../../../assets/img/logo3.png" alt="">
         </a>
         <div id="menu" class="animated fadeIn" [ngStyle]=" { 'display': opciones } ">
-            <a class="navbar-brand white" id="navText" href="#Servicios">
-                <span>Servicios</span>
-            </a>
-            <a class="navbar-brand white" id="navText" href="#ComoTrabajamos">
-                <span>¿Cómo trabajamos?</span>
-            </a>
+            <div class="row">
+                <a class="nav-link white" id="navText" href="#Servicios">
+                    <span>{{ 'HOME.OPTION1' | translate }}</span>
+                </a>
+                <a class="navbar-brand white" id="navText" href="#ComoTrabajamos">
+                    <span>{{ 'HOME.OPTION2' | translate }}</span>
+                </a>
+            </div>
         </div>
         <button class="navbar-toggler white-border" (click)="handleMenu()" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" id="toggle">
           <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>

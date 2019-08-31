@@ -1,7 +1,7 @@
 {
     "HOME": {
-        "TITLE": "Testing multi-language app",
-        "TEXT": "This demo has been created using ngx-translate",
+        "OPTION1": "Services",
+        "OPTION2": "How we work",
         "SELECT": "Select Language"
     },
     "BANNER1": {

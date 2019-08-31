@@ -1,7 +1,7 @@
 {
     "HOME": {
-        "TITLE": "Probando una app multi-lenguaje",
-        "TEXT": "Esta demo fue creada con ngx-translate",
+        "OPTION1": "Servicios",
+        "OPTION2": "Cómo trabajamos",
         "SELECT": "Seleccionar lenguaje"
     },
     "SLIDER": {
