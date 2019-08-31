@@ -11,6 +11,7 @@
 .flags:hover {
     border-bottom: 3px solid white;
     font-size: 20px;
+    transition: 0.15s ease-in
 }
 
 
@@ -92,6 +93,11 @@ nav {
     justify-content: center;
     transform: translateX(70%);
 } */
+
+.cent {
+    display: flex;
+    justify-content: end;
+}
 
 .zeiboxH {
     font-size: 30px;

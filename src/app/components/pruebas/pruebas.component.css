@@ -305,6 +305,12 @@ img {
     .xxx img {
         height: 1200px;
     }
+    .vertical-center2 {
+        left: 35%;
+    }
+    .vertical-center {
+        left: 45%;
+    }
     .fontText {
         font-size: 18px;
         font-weight: 500;
@@ -341,6 +347,12 @@ img {
     }
     .xx {
         z-index: 2;
+    }
+    .vertical-center2 {
+        left: 35%;
+    }
+    .vertical-center {
+        left: 45%;
     }
     .fontText {
         font-size: 18px;
