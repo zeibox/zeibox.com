@@ -44,7 +44,7 @@ export class PruebasComponent implements OnInit {
         this.anim2 = 'nule';
         this.anim3 = 'nule';
         this.timeout1();
-        console.log('trigger btn1');
+        // console.log('trigger btn1');
   }
 
 
@@ -107,19 +107,19 @@ export class PruebasComponent implements OnInit {
 // TIMEOUTS, cada 6000 clickea el boton que ejecuta el metodo correspondiente
   timeout1() {
     this.t1 = setTimeout(() => {
-        console.log('trigger btn2');
+        // console.log('trigger btn2');
         this.triggerBtn2();
     }, 6000);
   }
   timeout2() {
     this.t2 = setTimeout(() => {
-        console.log('trigger btn3');
+        // console.log('trigger btn3');
         this.triggerBtn3();
     }, 6000);
   }
   timeout3() {
     this.t3 = setTimeout(() => {
-        console.log('trigger btn1');
+        // console.log('trigger btn1');
         this.triggerBtn1();
     }, 6000);
   }
