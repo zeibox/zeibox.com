@@ -47,18 +47,6 @@ export class NavbarComponent implements OnInit {
     };
   }
 
-  fadeMethod() {
-    const menu = document.querySelector('#menu');
-    this.fade = !this.fade;
-    if (this.fade){
-      this.fade = true;
-      menu.className = 'animated fadeOut ml-auto pr-5';
-    } else {
-      this.fade = false;
-      menu.className = 'animated fadeIn ml-auto pr-5';
-    }
-  }
-
   doSomething(event) {
     console.log('Scroll Event', window.pageYOffset );
   }
@@ -89,7 +77,6 @@ export class NavbarComponent implements OnInit {
 
 
   handleMenu() {
-    this.fadeMethod();
     const nav = document.querySelector('#navbar');
     const nav2 = document.querySelector('#navbar2');
     // const navt = document.querySelector('#toggle');
