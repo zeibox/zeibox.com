@@ -27,6 +27,7 @@ img {
 
 .overlay {
     position: absolute;
+    background-color: #FC4742;
     top: 0;
     bottom: 0;
     left: 0;
@@ -76,27 +77,30 @@ img {
 
 .test {
     background-color: white;
+    transition: transform 1s, z-index 1100ms;
+    z-index: 6;
 }
 
-.test:hover {
+
+/* ANIMACION */
+
+.test.a {
     background-color: #FC4742;
+    transform: scale(1.15);
+    transition: transform 1s ease-in-out;
+    z-index: 10;
 }
 
-.card:hover .overlay {
+.card .overlay.c {
     opacity: 1;
 }
 
-.card:hover .overlay2 {
+.card .overlay2.b {
     opacity: 0;
 }
 
-.card:hover .overlay3 {
-    opacity: 0;
-}
 
-.card:hover .overlay4 {
-    opacity: 1;
-}
+/* CIERRE ANIMACION */
 
 .text {
     color: white;
@@ -108,6 +112,7 @@ img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    z-index: 30;
 }
 
 .text2 {

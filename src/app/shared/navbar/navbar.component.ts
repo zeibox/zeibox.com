@@ -8,7 +8,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 @HostListener('window:scroll', ['$event'])
 export class NavbarComponent implements OnInit {
-
+  t1: any;
+  fade: boolean;
   opciones = 'none';
   langEs: boolean;
   browserLang = this.translate.getBrowserLang();
@@ -46,6 +47,18 @@ export class NavbarComponent implements OnInit {
     };
   }
 
+  fadeMethod() {
+    const menu = document.querySelector('#menu');
+    this.fade = !this.fade;
+    if (this.fade){
+      this.fade = true;
+      menu.className = 'animated fadeOut ml-auto pr-5';
+    } else {
+      this.fade = false;
+      menu.className = 'animated fadeIn ml-auto pr-5';
+    }
+  }
+
   doSomething(event) {
     console.log('Scroll Event', window.pageYOffset );
   }
@@ -68,7 +81,15 @@ export class NavbarComponent implements OnInit {
     }
   }
 
+  timeout2() {
+    this.t1 = setTimeout(() => {
+      this.opciones = 'none';
+    }, 1000);
+  }
+
+
   handleMenu() {
+    this.fadeMethod();
     const nav = document.querySelector('#navbar');
     const nav2 = document.querySelector('#navbar2');
     // const navt = document.querySelector('#toggle');
@@ -111,8 +132,4 @@ export class NavbarComponent implements OnInit {
       }
     }
   }
-
-
-
-
 }
