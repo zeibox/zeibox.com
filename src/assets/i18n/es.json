@@ -17,11 +17,11 @@
         "TITLE-A": "QUE HACEMOS",
         "TITLE-B": "",
         "BOTON-1": "DESARROLLO WEB",
-        "TEXTO-1": "Aconsejamos a nuestros clientes para que tomen las mejores decisiones digitales y se centren en hacer crecer su negocio. Crear una aplicacion Web es el mejor camino.",
-        "BOTON-2": "DESARROLLO MOVIL",
-        "TEXTO-2": "El futuro está en los Smartphones. Cada vez se hacen mas parte de nuestra vida y tu empresa debe adaptarse rapidamente a esta realidad.",
+        "TEXTO-1": "Aconsejamos a nuestros clientes para que tomen las mejores decisiones digitales y se centren en hacer crecer su negocio. Crear una aplicación Web es el mejor camino.",
+        "BOTON-2": "DESARROLLO MÓVIL",
+        "TEXTO-2": "El futuro está en los Smartphones. Cada vez se hacen más parte de nuestra vida y tu empresa debe adaptarse rápidamente a esta realidad.",
         "BOTON-3": "APPS MULTIPLATAFORMA",
-        "TEXTO-3": "Creamos aplicaciones que responden a multiples dispositivos, es decir, funcionan y se ven bien tanto en una PC como en una tablet o celular."
+        "TEXTO-3": "Creamos aplicaciones que responden a múltiples dispositivos, es decir, funcionan y se ven bien tanto en una PC como en una tablet o celular."
     },
     "BANNER": {
         "TEXT1": "Tener una aplicación web o móvil, puede aumentar el alcance de tu emprendimiento y mejorar el compromiso con el cliente.",
@@ -39,14 +39,14 @@
         "TEXT2C": "Planificamos tu proyecto según tus intereses e intenciones.",
         "TEXT3A": "DESARROLLO",
         "TEXT3B": "3",
-        "TEXT3C": "Creamos tú aplicacion a medida.",
+        "TEXT3C": "Creamos tu aplicación a medida.",
         "TEXT4A": "SOPORTE",
         "TEXT4B": "4",
         "TEXT4C": "Brindamos capacitación y asesoramiento acorde a tus necesidades."
     },
     "CARDS": {
         "CARD1": "DESARROLLO WEB",
-        "CARD2": "APLICACIONES MOVILES",
+        "CARD2": "APLICACIONES MÓVILES",
         "CARD3": "E-COMMERCE",
         "CARD4": "SOFTWARE",
         "CARD5": "MARKETING DIGITAL",
@@ -54,7 +54,7 @@
     },
     "CARDS2": [
         { "TITLE": "DESARROLLO WEB" },
-        { "TITLE": "APLICACIONES MOVILES" },
+        { "TITLE": "APLICACIONES MÓVILES" },
         { "TITLE": "E-COMMERCE" },
         { "TITLE": "SOFTWARE" },
         { "TITLE": "MARKETING DIGITAL" },
@@ -69,7 +69,7 @@
         "SEARCH": "¿Qué estás buscando?",
         "DEFAULT": "Seleccionar",
         "OP1": "Desarrollo Web",
-        "OP2": "Aplicaciones Moviles",
+        "OP2": "Aplicaciones Móviles",
         "OP3": "Asesoramiento",
         "OP4": "Marketing Digital",
         "OP5": "Redes Sociales",
@@ -85,7 +85,7 @@
 
         "TITLEb": "SERVICIOS",
         "TEXTb1": "Desarrollo Web",
-        "TEXTb2": "Desarrollo Movil",
+        "TEXTb2": "Desarrollo Móvil",
         "TEXTb3": "Desarrollo de Software Empresarial",
         "TEXTb4": "Mantenimiento y Soporte",
         "TEXTb5": "Asesoramiento",
