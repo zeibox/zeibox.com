@@ -26,6 +26,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { PruebasComponent } from './components/pruebas/pruebas.component';
 import { Pruebas2Component } from './components/pruebas2/pruebas2.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { ComoTrabajamosComponent } from './pages/como-trabajamos/como-trabajamos.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,7 +46,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     BannerComponent,
     Banner1Component,
     PruebasComponent,
-    Pruebas2Component
+    Pruebas2Component,
+    QuienesSomosComponent,
+    ServiciosComponent,
+    ComoTrabajamosComponent
   ],
   imports: [
     BrowserModule,

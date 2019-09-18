@@ -1,5 +1,5 @@
 Página principal
-Te hacemos la vida más...	simple, cómoda, feliz, interesante 
+Te hacemos la vida más...	simple, cómoda, feliz, interesante
 
 Visión
 
@@ -7,17 +7,17 @@ Queremos una empresa que nos/te brinde libertad e independencia para aprovechar 
 
 Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades, te proponemos subirte a esta revolución y con nuestra ayuda hacer un mundo mas participativo y vinculante.
 
-Amamos la tecnología y creemos que podemos sacarle buen provecho para hacerte la vida mas fácil. 
-Nos comprometemos a estar 24hs para vos dándote una respuesta inmediata. 
+Amamos la tecnología y creemos que podemos sacarle buen provecho para hacerte la vida mas fácil.
+Nos comprometemos a estar 24hs para vos dándote una respuesta inmediata.
 
-Algunos problemas que podemos solucionarte: 
+Algunos problemas que podemos solucionarte:
 
 	-Si sientes que gastas mucho tiempo en las mismas tareas mes a mes, podemos sistematizar esos trabajos y optimizar tu tiempo.
 
 	-Tienes un negocio en crecimiento y sientes que insertarte digitalmente puede ser de ayuda.
 Bueno nosotros te asesoramos en la toma de decisiones para elegir la mejor manera de tener una sólida presencia digital.
 
-	-¿Tu proyecto web es muy útil pero piensas que es momento de una actualización?	
+	-¿Tu proyecto web es muy útil pero piensas que es momento de una actualización?
 Relevamos y relizamos los cambios necesarios para optimizar dicho proyecto
 
 	-Si tu negocio crecio y crees que necesitas algún sistema de administración podemos crear herramientas a medida de tu negocio para que lleves el control de una manera cómoda. Además podemos darte estadísticas para que optimices tus recursos.
@@ -27,7 +27,6 @@ Relevamos y relizamos los cambios necesarios para optimizar dicho proyecto
 	-Si quieres dar un salto de calidad necesitas gente capacitada para poder aprovechar todas los beneficios que traen las nuevas tecnologías, para eso nosotros nos encargamos de capacitar al personal para que todos se alineen en un mismo objetivo
 
 	-Si quieres crear tu marca desde cero, podemos idear tu imagen de marca para empezar con el pie derecho y una identidad definida y que te represente.
-
 Mision
 
 ¿ Porqué y cómo tu empresa hace un mundo mejor ?
@@ -133,19 +132,19 @@ Zeibox es una empresa que hará posible la inserción al mundo digital
 
 #################################### MOVILES ############################################
 
-***! EL futuro está en los SMARTPHONES. Cada vez se hacen mas parte de nuestra vida y tu empresa debe adaptarse rapidamente a esta realidad. 
+***! EL futuro está en los SMARTPHONES. Cada vez se hacen mas parte de nuestra vida y tu empresa debe adaptarse rapidamente a esta realidad.
 Hoy en día accedemos a internet mediante nuestro celular no solo para distraernos si no tambien para buscar informacion y hasta para trabajar.
 
 ***! Creamos aplicaciones para que gestiones tu negocio y aumentes tu productividad de una manera nunca vista.
 
-*** 
+***
 
 
 #################################### EMPRESARIAL #######################################
 
 ***! Desarrollamos entornos de trabajo que aporten un valor adicional a tu negocio, como extraer datos y estadisticas para un posterior analisis.
 
-***! Creacion de intranet 
+***! Creacion de intranet
 
 ***! Gestion de empleados y de stock de manera local como a traves de un celular.
 
@@ -180,9 +179,9 @@ IDEAR EL EXITO DEL PROYECTO
 
 Herramientas que utilizamos en la Ingeniería de Software
   Existen gran cantidad de herramientas para la construcción de proyectos; en la actualidad utilizamos tecnologías que han revolucionado el mundo
-  como las utilizadas en Redes Sociales (para soportar una demanda en tiempo real de millones de personas); software de código abierto, como 
+  como las utilizadas en Redes Sociales (para soportar una demanda en tiempo real de millones de personas); software de código abierto, como
   frameworks, estándares, librerías de UI -HTML5, Angular-, plataformas de desarrollo híbrido como Cordova, Ionic y aplicaciones de Backend más
-  estables y con soporte en seguridad y respaldo. 
+  estables y con soporte en seguridad y respaldo.
 
 
 -------------------------------- 16 de Septiembre ----------------------------
@@ -229,11 +228,11 @@ La tecnología nos impulsa a crecer junto a nuestros clientes, sin dependencias 
 
 2 - Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital; la
     tecnología permite desarrollar soluciones donde cada participante puede hacerlo desde distintos lugares del mundo, con la libertad que ello implica.
-    Este es el modelo que marca la tendencia en la actualidad y el que hemos adoptado, ya que permite gestionar soluciones desde distintos puntos. 
-    Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento.  
+    Este es el modelo que marca la tendencia en la actualidad y el que hemos adoptado, ya que permite gestionar soluciones desde distintos puntos.
+    Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento.
 
 
-3 - Foto de los 4 fantásticos 
+3 - Foto de los 4 fantásticos
 
 4 - Formulario de contacto
 
