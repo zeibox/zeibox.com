@@ -12,6 +12,12 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BannerComponent } from './components/banner/banner.component';
 import { Banner1Component } from './components/banner1/banner1.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { ComoTrabajamosComponent } from './pages/como-trabajamos/como-trabajamos.component';
+import { ParallaxComponent } from './components/parallax/parallax.component';
+
+
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
@@ -26,9 +32,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { PruebasComponent } from './components/pruebas/pruebas.component';
 import { Pruebas2Component } from './components/pruebas2/pruebas2.component';
-import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
-import { ServiciosComponent } from './pages/servicios/servicios.component';
-import { ComoTrabajamosComponent } from './pages/como-trabajamos/como-trabajamos.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -49,7 +52,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     Pruebas2Component,
     QuienesSomosComponent,
     ServiciosComponent,
-    ComoTrabajamosComponent
+    ComoTrabajamosComponent,
+    ParallaxComponent
+  ],
+  exports: [
+    TranslateModule
   ],
   imports: [
     BrowserModule,
