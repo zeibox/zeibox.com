@@ -1,8 +1,8 @@
-<div class="fondo">
-    <div id="layer">
+<div class="fondo" [ngStyle]="{'background': 'url('+bg+') no-repeat center center', 'height.px': h}">
+    <div id="filtro">
         <div class="vcenter text-white text-center col-10">
-            <p><span class="text-banner txt"> {{ titulo }}
-                </span>
+            <p>
+                <span class="text-banner txt"> {{ parrafo }}</span>
             </p>
         </div>
     </div>
