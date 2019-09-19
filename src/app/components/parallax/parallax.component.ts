@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-parallax',
@@ -8,11 +7,24 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class ParallaxComponent implements OnInit {
 
-  @Input() titulo: any;
+  @Input() parrafo: any;
+
+  h: number;
+  bg: string;
+
+  @Input() estilos: any;
+
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.estilos);
+    this.styles();
   }
 
+  styles() {
+        this.h = this.estilos[0];
+        this.bg = this.estilos[1];
+    }
 }
+
