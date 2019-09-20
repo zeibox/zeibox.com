@@ -21,6 +21,9 @@
         font-size: 1.4em;
         font-weight: 500;
     }
+    .fondo {
+        height: 300px !important;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 1280px) {
@@ -35,7 +38,7 @@
         font-size: 2.5em;
         font-weight: 500;
     }
-    #banner {
-        height: 600px;
+    .fondo {
+        height: 500px !important;
     }
 }
