@@ -1,21 +1,21 @@
-<app-cover-page img='../../../assets/img/desktop2.jpg' size="500" title="Titulo de prueba" text=" Texto de pureba Texto de pureba Texto de pureba Texto de pureba" color="rgba(12, 185, 228, 0.75)">
+<app-cover-page img='../../../assets/img/how-we-work/cover-page-work.jpg' size="600" title="{{ 'HOW-WE-WORK.COVER-PAGE.TITLE' | translate }}" text="{{ 'HOW-WE-WORK.COVER-PAGE.SUBTITLE' | translate }}" color="rgba(4, 39, 136, 0.75)">
 </app-cover-page>
 
 <div class="container-fluid p-0 m-0" style="background-color: rgb(255, 255, 255)">
 
     <app-navbar></app-navbar>
 
-    <div class="container col-10 my-5">
-        <h3>Adaptando y transformando la realidad del proyecto</h3>
-        <h5>Implementación de sistemas a medida para simplificar las tareas y hacer más eficiente el negocio, elaborando estadísticas que ayuden a la toma de decisiones</h5>
-        <div class="row justify-content-between">
+    <div class="container col-10 my-5 mt-5">
+        <h3>{{ 'HOW-WE-WORK.CARDS.TITLE' | translate }}</h3>
+        <h5>{{ 'HOW-WE-WORK.CARDS.SUBTITLE' | translate }}</h5>
+        <div class="row justify-content-between mt-5">
             <div class="col-12 col-lg-8 pl-0">
                 <div class="col-12 p-2" style="height: 150px">
                     <div class="card text-left">
 
                         <div class="card-body">
-                            <h4 class="card-title">Proyectos digitales en ejecución</h4>
-                            <p class="card-text">Implementar cambios que optimicen el funcionamiento y/o posicionamiento a proyectos heredados</p>
+                            <h4 class="card-title"><i class="fas fa-cogs"></i>{{ 'HOW-WE-WORK.CARDS.CARD1.TITLE' | translate }}</h4>
+                            <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD1.BODY' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -23,27 +23,29 @@
                     <div class="card text-left">
 
                         <div class="card-body">
-                            <h4 class="card-title">Equipamiento tecnológico</h4>
-                            <p class="card-text">Actualización del hardware obsoleto e incorporación de nuevos dispositivos según corresponda</p>
+                            <h4 class="card-title"><i class="fas fa-network-wired"></i>{{ 'HOW-WE-WORK.CARDS.CARD2.TITLE' | translate }}</h4>
+                            <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD2.BODY' | translate }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 wow animated slideInRight pl" data-wow-iteration="1">
-                <div class="prueba"></div>
+                <img class="foto" src="../../../assets/img/how-we-work/work-card1.jpg" alt="">
             </div>
         </div>
         <div class="row justify-content-between">
             <div class="col-4 wow animated slideInLeft pr" data-wow-iteration="1">
-                <div class="prueba"></div>
+                <img class="foto" src="../../../assets/img/how-we-work/card2.jpg" alt="">
+
             </div>
             <div class="col-8 pr-0">
                 <div class="col-12 p-2" style="height: 150px">
                     <div class="card text-left">
 
                         <div class="card-body">
-                            <h4 class="card-title">Personal con conocimientos insuficientes</h4>
-                            <p class="card-text">La capacitación del personal (jerárquico, administrativo y otras áreas), es fundamental para el aprovechamiento buscado en todo proyecto</p>
+                            <h4 class="card-title"><i class="fas fa-user-clock"></i>{{ 'HOW-WE-WORK.CARDS.CARD3.TITLE' | translate }}</h4>
+                            <p class="card-text">
+                                {{ 'HOW-WE-WORK.CARDS.CARD3.BODY' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -51,8 +53,8 @@
                     <div class="card text-left">
 
                         <div class="card-body">
-                            <h4 class="card-title">Diseño e imagen de marca (Branding)</h4>
-                            <p class="card-text">Los objetivos para la construcción de una marca que sea representativa</p>
+                            <h4 class="card-title"> <i class="fas fa-paint-brush"></i>{{ 'HOW-WE-WORK.CARDS.CARD4.TITLE' | translate }}</h4>
+                            <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD4.BODY' | translate }}</p>
                         </div>
                     </div>
                 </div>
@@ -65,15 +67,15 @@
             <div class="vcenter text-white text-center col-10">
                 <div class="card text-left">
                     <div class="card-body">
-                        <h4 class="card-title">¿ Que valor agregado genera cada proyecto ?</h4>
-                        <p class="card-text">Optimizar la gestión en tiempo real, facilita el mejoramiento de los niveles de rentabilidad y desempeño.</p>
+                        <h4 class="card-title">{{ 'HOW-WE-WORK.PARALLAX.QUESTION1' | translate }}</h4>
+                        <p class="card-text">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE1' | translate }}</p>
                     </div>
                 </div>
                 <hr>
                 <div class="card text-left">
                     <div class="card-body">
-                        <h4 class="card-title">¿ Qué nos motiva hacer lo que hacemos ?</h4>
-                        <p class="card-text">La tecnología nos impulsa a crecer junto a nuestros clientes, sin dependencias futuras, haciendo un mundo más participativo y vinculante.</p>
+                        <h4 class="card-title">{{ 'HOW-WE-WORK.PARALLAX.QUESTION2' | translate }}</h4>
+                        <p class="card-text">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE2' | translate }}</p>
                     </div>
                 </div>
             </div>

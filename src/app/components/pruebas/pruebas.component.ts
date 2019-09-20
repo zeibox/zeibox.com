@@ -8,9 +8,9 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 export class PruebasComponent implements OnInit {
 
   imagen: string[] = [
-    '../../../assets/img/tablet1.png',
-    '../../../assets/img/mobile.png',
-    '../../../assets/img/monitor.png'];
+    '../../../assets/img/home/tablet1.png',
+    '../../../assets/img/home/mobile.png',
+    '../../../assets/img/home/monitor.png'];
 
   textos: string[] = [
     'APLICACIONES MOVILES',

@@ -56,7 +56,6 @@
         }
     },
     "HOME": {
-
         "SLIDER": {
             "TEXT1": "SOLUCIONES DIGITALES",
             "TEXT2": "¿Quieres llevar tu empresa al próximo nivel?"
@@ -105,8 +104,6 @@
             "CARD5": "MARKETING DIGITAL",
             "CARD6": "ASESORAMIENTO"
         }
-
-
     },
     "SERVICES": {
         "COVER-PAGE": {
@@ -142,7 +139,37 @@
         }
     },
     "HOW-WE-WORK": {
+        "COVER-PAGE": {
+            "TITLE": "Planteando objetivos y estrategias",
+            "SUBTITLE": "Análisis de las necesidades y asesoría, con el objetivo de obtener una sólida presencia digital, apoyados en herramientas de última generación."
+        },
+        "CARDS": {
+            "TITLE": "Adaptando y transformando la realidad del proyecto",
+            "SUBTITLE": "Implementación de sistemas a medida para simplificar las tareas y hacer más eficiente el negocio, elaborando estadísticas que ayuden a la toma de decisiones",
+            "CARD1": {
+                "TITLE": "Proyectos digitales en ejecución",
+                "BODY": "Implementar cambios que optimicen el funcionamiento y/o posicionamiento a proyectos heredados"
+            },
+            "CARD2": {
+                "TITLE": "Equipamiento tecnológico",
+                "BODY": "Actualización del hardware obsoleto e incorporación de nuevos dispositivos según corresponda"
+            },
+            "CARD3": {
+                "TITLE": "Personal con conocimientos insuficientes",
+                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas), es fundamental para el aprovechamiento buscado en todo proyecto"
+            },
+            "CARD4": {
+                "TITLE": "Diseño e imagen de marca (Branding)",
+                "BODY": "Los objetivos para la construcción de una marca que sea representativa"
+            }
+        },
+        "PARALLAX": {
+            "QUESTION1": "¿ Que valor agregado genera cada proyecto ?",
+            "RESPONSE1": "Optimizar la gestión en tiempo real, facilita el mejoramiento de los niveles de rentabilidad y desempeño.",
 
+            "QUESTION2": "¿ Qué nos motiva hacer lo que hacemos ?",
+            "RESPONSE2": "La tecnología nos impulsa a crecer junto a nuestros clientes, sin dependencias futuras, haciendo un mundo más participativo y vinculante."
+        }
     },
     "WHO-WE-ARE": {
 
