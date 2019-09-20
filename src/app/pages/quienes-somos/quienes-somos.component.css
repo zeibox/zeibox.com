@@ -17,7 +17,6 @@ h1 {
 }
 
 .foto {
-    background: url("../../../assets/img/hands.jpg") no-repeat center center;
     /* background: grey; */
     background-size: cover;
     position: relative;
