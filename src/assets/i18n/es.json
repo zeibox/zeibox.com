@@ -172,8 +172,20 @@
         }
     },
     "WHO-WE-ARE": {
-
+        "COVER-PAGE": {
+            "TITLE": "",
+            "SUBTITLE": ""
+        },
+        "TITLE": "¿Quiénes sómos?",
+        "TEXT_1": {
+            "P_1": "Queremos una empresa que nos brinde libertad e independencia para aprovechar la vida y no perder esos momentos que son únicos. Buscamos el compromiso y confianza como principales valores para formar una relación fuerte, que nos permita darnos ese tiempo que es tan necesario hoy en día.",
+            "P_2": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades; te proponemos subirte a esta revolución, con nuestra ayuda y hacer un mundo más participativo y vinculante.",
+            "P_3": "Amamos la tecnología y sabemos que los beneficios que se optienen son incontables y sobre todo nos hacen la vida más fácil."
+        },
+        "TEXT_2": {
+            "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital; la tecnología permite desarrollar soluciones donde cada participante puede hacerlo desde distintos lugares del mundo, con la libertad que ello implica.",
+            "P_2": "Este es el modelo que marca la tendencia en la actualidad y el que hemos adoptado, ya que permite gestionar soluciones desde distintos puntos.",
+            "P_3": "Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento."
+        }
     }
-
-
 }
