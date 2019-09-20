@@ -1,13 +1,13 @@
-<app-cover-page img='../../../assets/img/desktop2.jpg' size="500" title="Titulo de ls prueba" text=" Texto de pureba Texto de pureba Texto de pureba Texto de pureba" color="rgba(194, 20, 20, 0.746)">
+<app-cover-page img='../../../assets/img/cover-page.jpg' size="500" title="{{ 'SERVICES.COVER-PAGE.TITLE' | translate }}" text="{{ 'SERVICES.COVER-PAGE.SUBTITLE' | translate }}" color="rgba(194, 20, 20, 0.746)">
 </app-cover-page>
 
 <div class="container-fluid p-0 m-0" style="background-color: rgb(255, 255, 255)">
 
     <app-navbar></app-navbar>
 
-    <div style="height: 80px; background-color: rgb(61, 61, 61)"></div>
     <div class="container col-10 my-5">
-        <h1>Dispositivos Convenientes</h1>
+        <h1>{{ 'SERVICES.CARDS.TITLE' | translate }}</h1>
+        <h6>{{ 'SERVICES.CARDS.SUBTITLE' | translate }}</h6>
         <div class="row justify-content-between">
             <div class="col-12 col-lg-8">
                 <div class="row">
@@ -15,8 +15,8 @@
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
-                                <h4 class="card-title">Title</h4>
-                                <p class="card-text">Body</p>
+                                <h4 class="card-title"> <i class="fas fa-wifi wow animated fadeIn"></i> {{ 'SERVICES.CARDS.CARD1.TITLE' | translate }}</h4>
+                                <p class="card-text">{{ 'SERVICES.CARDS.CARD1.BODY' | translate }}</p>
                             </div>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
-                                <h4 class="card-title">Title</h4>
-                                <p class="card-text">Body</p>
+                                <h4 class="card-title"><i class="fas fa-laptop-code wow animated fadeIn"></i>{{ 'SERVICES.CARDS.CARD2.TITLE' | translate }}</h4>
+                                <p class="card-text">{{ 'SERVICES.CARDS.CARD2.BODY' | translate }}</p>
                             </div>
                         </div>
                     </div>
@@ -33,27 +33,27 @@
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
-                                <h4 class="card-title">Title</h4>
-                                <p class="card-text">Body</p>
+                                <h4 class="card-title"><i class="fas fa-mobile-alt wow animated fadeIn"></i>{{ 'SERVICES.CARDS.CARD3.TITLE' | translate }}</h4>
+                                <p class="card-text">{{ 'SERVICES.CARDS.CARD3.BODY' | translate }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-lg-4 wow animated slideInRight bg" data-wow-iteration="1">
-                <div class="foto"></div>
+                <img class="foto" style="max-height: 320px;" src="../../../assets/img/cards2.jpg" alt="">
             </div>
         </div>
     </div>
 
     <!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro] -->
-    <app-parallax parrafo="{{'BANNER.TEXT1' | translate}}" [estilos]="[400, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
+    <app-parallax parrafo="{{'SERVICES.PARALLAX.TITLE' | translate}}" [estilos]="[400, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
 
     <div class="container col-10 my-5">
-        <h1>Herramientas que utilizamos en la Ingeniería de Software</h1>
+        <h4>{{ 'SERVICES.BIG-CARD.MAIN-TITLE' | translate }}</h4>
         <div class="row justify-content-between">
             <div class="col-12 col-lg-4 wow animated slideInLeft bg" data-wow-iteration="1">
-                <div class="foto"></div>
+                <img class="foto" style="max-width: 360px;max-height: 260px;" src="../../../assets/img/cards.jpg" alt="">
             </div>
             <div class="col-12 col-lg-8">
                 <div class="row">
@@ -61,8 +61,8 @@
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
-                                <h4 class="card-title">Title</h4>
-                                <p class="card-text">Body</p>
+                                <h4 class="card-title">{{ 'SERVICES.BIG-CARD.CARD.TITLE' | translate }}</h4>
+                                <p class="card-text">{{ 'SERVICES.BIG-CARD.CARD.BODY' | translate }}</p>
                             </div>
                         </div>
                     </div>

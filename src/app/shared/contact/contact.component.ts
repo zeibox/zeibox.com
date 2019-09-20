@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   message: FormGroup;
   emailPattern: any = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-  constructor(public contactService: ContactsService, private fb: FormBuilder ) { }
+  constructor( public contactService: ContactsService, private fb: FormBuilder ) { }
 
   ngOnInit() {
     this.message = this.fb.group({
@@ -32,8 +32,7 @@ export class ContactComponent implements OnInit {
 
   onSubmit() {
     this.contactService.addContact(this.message.value);
-    this.contactService.sendMessage( this.message.value ).subscribe(() => {
-    });
+    this.contactService.sendMessage( this.message.value ).subscribe(() => { });
 
     this.message.reset();
   }

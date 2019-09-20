@@ -2,21 +2,22 @@
     height: 100%;
     border-radius: 0;
     border: none;
-    background-color: rgb(241, 240, 237);
+    /* background-color: rgb(241, 240, 237); */
 }
 
-.card:hover {
+
+/* .card:hover {
     -webkit-box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.27);
     -moz-box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.27);
     box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.27);
-}
+} */
 
-h1 {
-    padding-bottom: 30px;
+h6 {
+    margin-bottom: 20px;
 }
 
 .foto {
-    background: url("../../../assets/img/hands.jpg") no-repeat center center;
+    background: no-repeat center center;
     /* background: grey; */
     background-size: cover;
     position: relative;
@@ -27,6 +28,11 @@ h1 {
 
 .bg {
     padding: 8px 20px;
+}
+
+.fas {
+    color: #042788;
+    margin-right: 10px;
 }
 
 @media (max-width: 990px) {
