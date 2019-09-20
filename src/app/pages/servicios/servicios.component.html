@@ -1,29 +1,57 @@
-<app-navbar></app-navbar>
-<div style="height: 80px; background-color: rgb(61, 61, 61)"></div>
-<div class="container col-10 my-5">
-    <h2>Dispositivos Convenientes</h2>
-    <div class="row">
-        <div class="col-9 bg-light">
-            <div class="row">
-                <div class="col-6 bg-secondary p-2" style="height: 200px">
-                    <div class="card text-left">
-                        <img class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Body</p>
+<div class="container-fluid p-0 m-0" style="background-color: rgb(255, 255, 255)">
+
+    <app-navbar></app-navbar>
+
+    <div style="height: 80px; background-color: rgb(61, 61, 61)"></div>
+    <div class="container col-10 my-5">
+        <h1>Dispositivos Convenientes</h1>
+        <div class="row justify-content-between">
+            <div class="col-7 ">
+                <div class="row">
+                    <div class="col-12 col-lg-6 p-2" style="height: 200px">
+                        <div class="card text-left">
+                            <img class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Body</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 p-2" style="height: 200px">
+                        <div class="card text-left">
+                            <img class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Body</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-12 p-2" style="height: 200px">
+                        <div class="card text-left">
+                            <img class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Body</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 bg-secondary p-2" style="height: 200px">
-                    <div class="card text-left">
-                        <img class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Body</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 bg-success p-2" style="height: 200px">
+            </div>
+            <div class="col-4 foto wow animated slideInRight" data-wow-iteration="1">
+            </div>
+        </div>
+    </div>
+
+    <!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro] -->
+    <app-parallax parrafo="{{'BANNER.TEXT1' | translate}}" [estilos]="[400, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
+
+    <div class="container col-10 my-5">
+        <h1>Herramientas que utilizamos en la Ingeniería de Software</h1>
+        <div class="row justify-content-between">
+            <div class="col-4 foto wow animated slideInLeft" data-wow-iteration="1">
+            </div>
+            <div class="col-7">
+                <div class="col-12 p-2" style="height: 300px">
                     <div class="card text-left">
                         <img class="card-img-top" alt="">
                         <div class="card-body">
@@ -34,34 +62,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-3 foto">
-        </div>
     </div>
+
+    <app-contact></app-contact>
+    <app-footer></app-footer>
+
 </div>
-
-<!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro] -->
-<app-parallax parrafo="{{'BANNER.TEXT1' | translate}}" [estilos]="[500, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
-
-<div class="container my-5" style="color: rgba(130, 201, 202, 0.747)">
-    <h2 text="'BANNER.TEXT1'"></h2>
-    <div class="row">
-        <div class="col-3 foto">
-        </div>
-        <div class="col-9 bg-light">
-            <div class="col-12 bg-secondary p-2" style="height: 300px">
-                <div class="card text-left">
-                    <img class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Title</h4>
-                        <p class="card-text">Body</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-3 foto">
-        </div>
-    </div>
-</div>
-
-<app-contact></app-contact>
-<app-footer></app-footer>

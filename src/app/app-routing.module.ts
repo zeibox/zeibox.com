@@ -6,8 +6,8 @@ import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.compo
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'how-we-work', component: ComoTrabajamosComponent },
   { path: 'who-we-are', component: QuienesSomosComponent },
   { path: 'services', component: ServiciosComponent },
