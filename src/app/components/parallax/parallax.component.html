@@ -1,5 +1,5 @@
-<div class="fondo" [ngStyle]="{'background': 'url('+bg+') no-repeat center center', 'height.px': h}">
-    <div id="filtro">
+<div class="fondo" [ngStyle]="asignarEstilos()">
+    <div id="filtro" [ngStyle]="asignarOpacidad()">
         <div class="vcenter text-white text-center col-10">
             <p>
                 <span class="text-banner txt"> {{ parrafo }}</span>

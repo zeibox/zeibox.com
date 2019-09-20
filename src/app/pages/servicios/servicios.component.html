@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
-
-<div class="container my-5">
+<div style="height: 80px; background-color: rgb(61, 61, 61)"></div>
+<div class="container col-10 my-5">
     <h2>Dispositivos Convenientes</h2>
     <div class="row">
         <div class="col-9 bg-light">
@@ -39,9 +39,10 @@
     </div>
 </div>
 
-<app-parallax parrafo="{{'BANNER.TEXT1' | translate}}" [estilos]="[500, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg']"></app-parallax>
+<!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro] -->
+<app-parallax parrafo="{{'BANNER.TEXT1' | translate}}" [estilos]="[500, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
 
-<div class="container my-5">
+<div class="container my-5" style="color: rgba(130, 201, 202, 0.747)">
     <h2 text="'BANNER.TEXT1'"></h2>
     <div class="row">
         <div class="col-3 foto">
@@ -60,4 +61,7 @@
         <div class="col-3 foto">
         </div>
     </div>
-</div>s
+</div>
+
+<app-contact></app-contact>
+<app-footer></app-footer>
