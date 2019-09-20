@@ -8,7 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { WorkfluxComponent } from './components/workflux/workflux.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { ContactComponent } from './shared/contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BannerComponent } from './components/banner/banner.component';
 import { Banner1Component } from './components/banner1/banner1.component';

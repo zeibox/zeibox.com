@@ -1,112 +1,152 @@
 {
+    "SHARED": {
+        "NAVBAR": {
+            "OPTION1": "Servicios",
+            "OPTION2": "Cómo trabajamos",
+            "OPTION3": "Quiénes somos",
+            "SELECT": "Seleccionar lenguaje"
+        },
+        "FOOTER": {
+            "TITLEa": "ESPECIALIDAD",
+            "TEXTa1": "Aplicaciones Web",
+            "TEXTa2": "Aplicaciones Móviles",
+            "TEXTa3": "Intranet",
+
+            "TITLEb": "SERVICIOS",
+            "TEXTb1": "Desarrollo Web",
+            "TEXTb2": "Desarrollo Móvil",
+            "TEXTb3": "Desarrollo de Software Empresarial",
+            "TEXTb4": "Mantenimiento y Soporte",
+            "TEXTb5": "Asesoramiento",
+
+            "TITLEc": "TECNOLOGÍAS",
+            "TEXTc1": "Angular",
+            "TEXTc2": "Node-js",
+            "TEXTc3": "Express",
+            "TEXTc4": "Java",
+            "TEXTc5": "Javascript",
+            "TEXTc6": "Typescript",
+            "TEXTc7": "Ionic",
+            "TEXTc8": "Cordova",
+
+            "TITLEd": "PLATAFORMAS",
+            "TEXTd1": "Ios",
+            "TEXTd2": "Android",
+            "TEXTd3": "Windows",
+            "TEXTd4": "Linux",
+
+            "POLICY": "Política de Privacidad"
+        },
+        "CONTACT": {
+            "TITLE": "Comienza con tu emprendimiento.",
+            "TITLE2": "¡Escríbenos! ",
+            "NAME": "Nombre",
+            "LAST": "Apellido",
+            "EMAIL": "Email",
+            "SEARCH": "¿Qué estás buscando?",
+            "DEFAULT": "Seleccionar",
+            "OP1": "Desarrollo Web",
+            "OP2": "Aplicaciones Móviles",
+            "OP3": "Asesoramiento",
+            "OP4": "Marketing Digital",
+            "OP5": "Redes Sociales",
+            "OTHER": "Otro",
+            "INFO": "Más información",
+            "SEND": "Enviar"
+        }
+    },
     "HOME": {
-        "OPTION1": "Servicios",
-        "OPTION2": "Cómo trabajamos",
-        "OPTION3": "Quiénes somos",
-        "SELECT": "Seleccionar lenguaje"
-    },
-    "SLIDER": {
-        "TEXT1": "SOLUCIONES DIGITALES",
-        "TEXT2": "¿Quieres llevar tu empresa al próximo nivel?"
-    },
-    "BANNER1": {
-        "TEXT1": "SITIOS WEB, APLICACIONES MÓVILES Y EMPRESARIALES",
-        "TEXT2": "DESARROLLO DE SOFTWARE PERSONALIZADO",
-        "TEXT3": "Brindamos servicios completos que cubren todos los aspectos de la ingeniería del software"
-    },
-    "ANIM": {
-        "TITLE-A": "QUE HACEMOS",
-        "TITLE-B": "",
-        "BOTON-1": "DESARROLLO WEB",
-        "TEXTO-1": "Aconsejamos a nuestros clientes para que tomen las mejores decisiones digitales y se centren en hacer crecer su negocio.",
-        "BOTON-2": "DESARROLLO MÓVIL",
-        "TEXTO-2": "El futuro está en los Smartphones. Cada vez se hacen más parte de nuestra vida y tu empresa debe adaptarse rápidamente a esta realidad.",
-        "BOTON-3": "APPS MULTIPLATAFORMA",
-        "TEXTO-3": "Creamos aplicaciones que responden a múltiples dispositivos, es decir, funcionan y se ven bien tanto en una PC como en una tablet o celular."
-    },
-    "BANNER": {
-        "TEXT1": "Tener una aplicación web o móvil, puede aumentar el alcance de tu emprendimiento y mejorar el compromiso con el cliente.",
-        "TEXT2": "Con ",
-        "TEXT3": "Zeibox",
-        "TEXT4": " tendrás un equipo especializado para desarrollar tus proyectos."
-    },
-    "WORKFLUX": {
-        "TITLE": "Cómo trabajamos",
-        "TEXT1A": "RELEVAMIENTO",
-        "TEXT1B": "1",
-        "TEXT1C": "Documentamos la información necesaria para tu emprendimiento.",
-        "TEXT2A": "ESTRATEGIA",
-        "TEXT2B": "2",
-        "TEXT2C": "Planificamos tu proyecto según tus intereses e intenciones.",
-        "TEXT3A": "DESARROLLO",
-        "TEXT3B": "3",
-        "TEXT3C": "Creamos tu aplicación a medida.",
-        "TEXT4A": "SOPORTE",
-        "TEXT4B": "4",
-        "TEXT4C": "Brindamos capacitación y asesoramiento acorde a tus necesidades."
-    },
-    "CARDS": {
-        "CARD1": "DESARROLLO WEB",
-        "CARD2": "APLICACIONES MÓVILES",
-        "CARD3": "E-COMMERCE",
-        "CARD4": "SOFTWARE",
-        "CARD5": "MARKETING DIGITAL",
-        "CARD6": "ASESORAMIENTO"
-    },
-    "CARDS2": [
-        { "TITLE": "DESARROLLO WEB" },
-        { "TITLE": "APLICACIONES MÓVILES" },
-        { "TITLE": "E-COMMERCE" },
-        { "TITLE": "SOFTWARE" },
-        { "TITLE": "MARKETING DIGITAL" },
-        { "TITLE": "ASESORAMIENTO" }
-    ],
-    "CONTACT": {
-        "TITLE": "Comienza con tu emprendimiento.",
-        "TITLE2": "¡Escríbenos! ",
-        "NAME": "Nombre",
-        "LAST": "Apellido",
-        "EMAIL": "Email",
-        "SEARCH": "¿Qué estás buscando?",
-        "DEFAULT": "Seleccionar",
-        "OP1": "Desarrollo Web",
-        "OP2": "Aplicaciones Móviles",
-        "OP3": "Asesoramiento",
-        "OP4": "Marketing Digital",
-        "OP5": "Redes Sociales",
-        "OTHER": "Otro",
-        "INFO": "Más información",
-        "SEND": "Enviar"
-    },
-    "FOOTER": {
-        "TITLEa": "ESPECIALIDAD",
-        "TEXTa1": "Aplicaciones Web",
-        "TEXTa2": "Aplicaciones Móviles",
-        "TEXTa3": "Intranet",
 
-        "TITLEb": "SERVICIOS",
-        "TEXTb1": "Desarrollo Web",
-        "TEXTb2": "Desarrollo Móvil",
-        "TEXTb3": "Desarrollo de Software Empresarial",
-        "TEXTb4": "Mantenimiento y Soporte",
-        "TEXTb5": "Asesoramiento",
+        "SLIDER": {
+            "TEXT1": "SOLUCIONES DIGITALES",
+            "TEXT2": "¿Quieres llevar tu empresa al próximo nivel?"
+        },
+        "BANNER1": {
+            "TEXT1": "SITIOS WEB, APLICACIONES MÓVILES Y EMPRESARIALES",
+            "TEXT2": "DESARROLLO DE SOFTWARE PERSONALIZADO",
+            "TEXT3": "Brindamos servicios completos que cubren todos los aspectos de la ingeniería del software"
+        },
+        "ANIM": {
+            "TITLE-A": "QUE HACEMOS",
+            "TITLE-B": "",
+            "BOTON-1": "DESARROLLO WEB",
+            "TEXTO-1": "Aconsejamos a nuestros clientes para que tomen las mejores decisiones digitales y se centren en hacer crecer su negocio.",
+            "BOTON-2": "DESARROLLO MÓVIL",
+            "TEXTO-2": "El futuro está en los Smartphones. Cada vez se hacen más parte de nuestra vida y tu empresa debe adaptarse rápidamente a esta realidad.",
+            "BOTON-3": "APPS MULTIPLATAFORMA",
+            "TEXTO-3": "Creamos aplicaciones que responden a múltiples dispositivos, es decir, funcionan y se ven bien tanto en una PC como en una tablet o celular."
+        },
+        "BANNER": {
+            "TEXT1": "Tener una aplicación web o móvil, puede aumentar el alcance de tu emprendimiento y mejorar el compromiso con el cliente.",
+            "TEXT2": "Con ",
+            "TEXT3": "Zeibox",
+            "TEXT4": " tendrás un equipo especializado para desarrollar tus proyectos."
+        },
+        "WORKFLUX": {
+            "TITLE": "Cómo trabajamos",
+            "TEXT1A": "RELEVAMIENTO",
+            "TEXT1B": "1",
+            "TEXT1C": "Documentamos la información necesaria para tu emprendimiento.",
+            "TEXT2A": "ESTRATEGIA",
+            "TEXT2B": "2",
+            "TEXT2C": "Planificamos tu proyecto según tus intereses e intenciones.",
+            "TEXT3A": "DESARROLLO",
+            "TEXT3B": "3",
+            "TEXT3C": "Creamos tu aplicación a medida.",
+            "TEXT4A": "SOPORTE",
+            "TEXT4B": "4",
+            "TEXT4C": "Brindamos capacitación y asesoramiento acorde a tus necesidades."
+        },
+        "CARDS": {
+            "CARD1": "DESARROLLO WEB",
+            "CARD2": "APLICACIONES MÓVILES",
+            "CARD3": "E-COMMERCE",
+            "CARD4": "SOFTWARE",
+            "CARD5": "MARKETING DIGITAL",
+            "CARD6": "ASESORAMIENTO"
+        }
 
-        "TITLEc": "TECNOLOGÍAS",
-        "TEXTc1": "Angular",
-        "TEXTc2": "Node-js",
-        "TEXTc3": "Express",
-        "TEXTc4": "Java",
-        "TEXTc5": "Javascript",
-        "TEXTc6": "Typescript",
-        "TEXTc7": "Ionic",
-        "TEXTc8": "Cordova",
 
-        "TITLEd": "PLATAFORMAS",
-        "TEXTd1": "Ios",
-        "TEXTd2": "Android",
-        "TEXTd3": "Windows",
-        "TEXTd4": "Linux",
+    },
+    "SERVICES": {
+        "COVER-PAGE": {
+            "TITLE": "Construir el proyecto",
+            "SUBTITLE": "Implementamos desarrollos con interfaces amigables e intuitivas, que simplifiquen el camino al éxito."
+        },
+        "CARDS": {
+            "TITLE": "Dispositivos convenientes",
+            "SUBTITLE": "Dejando de lado la complejidad interna de un desarrollo, se pueden implementar tanto en entorno móvil, tableta y/o en la Web.",
+            "CARD1": {
+                "TITLE": "Sitio web",
+                "BODY": "Implementación estática de contenidos responsivos (Se adaptan al tamaño del dispositivo)."
+            },
+            "CARD2": {
+                "TITLE": "Aplicaciones Web",
+                "BODY": "Implementación de contenidos dinámicos (con interacción del usuario como en programas de escritorio). Incluye un panel del control para el mantenimiento de dichos contenidos."
+            },
+            "CARD3": {
+                "TITLE": "Aplicaciones en entornos Android y iOS",
+                "BODY": "Aplicaciones subidas a Play Store y Apple Store, para todo tipo de dispositivos (Móviles, Tabletas, TVs, Autos, Relojes, etc)"
+            }
+        },
+        "PARALLAX": {
+            "TITLE": "IDEAR EL EXITO DEL PROYECTO",
+            "SUBTITLE": "Todas las aplicaciones a lo largo de su ciclo de vida, sufren cambios e incorporación de nuevos contenidos que en la ingeniería de sofware deben ser tomadas en cuenta desde un comienzo, ello facilita la adaptación al crecimiento de cada empresa."
+        },
+        "BIG-CARD": {
+            "MAIN-TITLE": "Todas las aplicaciones a lo largo de su ciclo de vida, sufren cambios e incorporación de nuevos contenidos que en la ingeniería de sofware deben ser tomadas en cuenta desde un comienzo, ello facilita la adaptación al crecimiento de cada empresa.",
+            "CARD": {
+                "TITLE": "Herramientas que utilizamos en la Ingeniería de Software",
+                "BODY": "Existen gran cantidad de herramientas para la construcción de proyectos; en la actualidad utilizamos tecnologías que han revolucionado el mundo como las utilizadas en Redes Sociales(para soportar una demanda en tiempo real de millones de personas);software de código abierto, como frameworks, estándares, librerías de UI - HTML5, Angular - , plataformas de desarrollo híbrido como Cordova, Ionic y aplicaciones de Backend más estables y con soporte en seguridad y respaldo."
+            }
+        }
+    },
+    "HOW-WE-WORK": {
 
-        "POLICY": "Política de Privacidad"
+    },
+    "WHO-WE-ARE": {
+
     }
+
+
 }
