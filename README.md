@@ -1,4 +1,5 @@
 # Zeibox
 
 ### Falta:
-#### Hacer el deploy de nuevo, detalles en los logos.
+#### - Hacer funcional las paginas: Servicios, Quienes Somos y Como trabajamos.
+#### - Agregar el contenido de Marketing Digital
