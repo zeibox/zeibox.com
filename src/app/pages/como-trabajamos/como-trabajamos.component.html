@@ -5,23 +5,32 @@
 
     <app-navbar></app-navbar>
 
-    <div class="container col-10 my-5 mt-5">
-        <h3>{{ 'HOW-WE-WORK.CARDS.TITLE' | translate }}</h3>
-        <h5>{{ 'HOW-WE-WORK.CARDS.SUBTITLE' | translate }}</h5>
-        <div class="row justify-content-between mt-5">
-            <div class="col-12 col-lg-8 pl-0">
-                <div class="col-12 p-2" style="height: 150px">
-                    <div class="card text-left">
+    <!-- <div class="container col-10 col-xl-10 my-5 mt-5">
+        <div class="text-center">
+            <h1>{{ 'HOW-WE-WORK.CARDS.TITLE' | translate }}</h1>
+            <h5>{{ 'HOW-WE-WORK.CARDS.SUBTITLE' | translate }}</h5>
+        </div>
+    </div> -->
 
+    <div class="container col-10 col-xl-8 my-5 mt-5">
+
+        <div class="text-center">
+            <h1>{{ 'HOW-WE-WORK.CARDS.TITLE' | translate }}</h1>
+            <h5>{{ 'HOW-WE-WORK.CARDS.SUBTITLE' | translate }}</h5>
+        </div>
+
+        <div class="row justify-content-between mt-5">
+            <div class="col-12 col-lg-7 pl-0">
+                <div class="col-12 p-2 card-container">
+                    <div class="card text-left">
                         <div class="card-body">
                             <h4 class="card-title"><i class="fas fa-cogs"></i>{{ 'HOW-WE-WORK.CARDS.CARD1.TITLE' | translate }}</h4>
                             <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD1.BODY' | translate }}</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 p-2" style="height: 150px">
+                <div class="col-12 p-2 card-container">
                     <div class="card text-left">
-
                         <div class="card-body">
                             <h4 class="card-title"><i class="fas fa-network-wired"></i>{{ 'HOW-WE-WORK.CARDS.CARD2.TITLE' | translate }}</h4>
                             <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD2.BODY' | translate }}</p>
@@ -29,19 +38,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 wow animated slideInRight pl" data-wow-iteration="1">
-                <img class="foto" src="../../../assets/img/how-we-work/work-card1.jpg" alt="">
+            <div class="col-lg-5 wow animated slideInRight pl bg" data-wow-iteration="1">
+                <div class="foto" style="background: url('../../../assets/img/how-we-work/work-card1.jpg') no-repeat center center" alt=""></div>
             </div>
+
         </div>
+
         <div class="row justify-content-between">
-            <div class="col-4 wow animated slideInLeft pr" data-wow-iteration="1">
-                <img class="foto" src="../../../assets/img/how-we-work/card2.jpg" alt="">
-
+            <div class="col-lg-5 animated slideInLeft pr bg" data-wow-iteration="1">
+                <div class="foto" style="background: url('../../../assets/img/how-we-work/card2.jpg') no-repeat center center" alt=""></div>
             </div>
-            <div class="col-8 pr-0">
-                <div class="col-12 p-2" style="height: 150px">
+            <div class="col-12 col-lg-7 pl-0">
+                <div class="col-12 p-2 card-container">
                     <div class="card text-left">
-
                         <div class="card-body">
                             <h4 class="card-title"><i class="fas fa-user-clock"></i>{{ 'HOW-WE-WORK.CARDS.CARD3.TITLE' | translate }}</h4>
                             <p class="card-text">
@@ -49,9 +58,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 p-2" style="height: 150px">
+                <div class="col-12 p-2 card-container">
                     <div class="card text-left">
-
                         <div class="card-body">
                             <h4 class="card-title"> <i class="fas fa-paint-brush"></i>{{ 'HOW-WE-WORK.CARDS.CARD4.TITLE' | translate }}</h4>
                             <p class="card-text">{{ 'HOW-WE-WORK.CARDS.CARD4.BODY' | translate }}</p>
@@ -64,18 +72,18 @@
 
     <div class="fondo">
         <div class="filtro">
-            <div class="vcenter text-white text-center col-10">
+            <div class="vcenter text-white text-center col-12 col-lg-10 p-0">
                 <div class="card text-left">
                     <div class="card-body">
-                        <h4 class="card-title">{{ 'HOW-WE-WORK.PARALLAX.QUESTION1' | translate }}</h4>
-                        <p class="card-text">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE1' | translate }}</p>
+                        <h4 class="card-title text-center">{{ 'HOW-WE-WORK.PARALLAX.QUESTION1' | translate }}</h4>
+                        <p class="card-text text-center">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE1' | translate }}</p>
                     </div>
                 </div>
                 <hr>
                 <div class="card text-left">
                     <div class="card-body">
-                        <h4 class="card-title">{{ 'HOW-WE-WORK.PARALLAX.QUESTION2' | translate }}</h4>
-                        <p class="card-text">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE2' | translate }}</p>
+                        <h4 class="card-title text-center">{{ 'HOW-WE-WORK.PARALLAX.QUESTION2' | translate }}</h4>
+                        <p class="card-text text-center">{{ 'HOW-WE-WORK.PARALLAX.RESPONSE2' | translate }}</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<nav class="navbar navbarT fixed-top" id="navbar" style="overflow: hidden">
+<!-- <nav class="navbar navbarT fixed-top" id="navbar" style="overflow: hidden">
     <div class="container col-10 ml-5 mr-0" style="padding-left: 100px">
 
         <a class="navbar-brand" [routerLink]="['/home']">
@@ -24,10 +24,8 @@
     <div class="container col-1" style="padding-right: 5%">
         <div class="row lang">
             <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
-            <!-- <img src="../../../assets/img/united-states.svg" alt=""> -->
         </a>
             <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
-            <!-- <img src="../../../assets/img/spain.svg" alt=""> -->
         </a>
         </div>
     </div>
@@ -39,11 +37,69 @@
         </a>
         <div class="lang" style="padding-left: 20px">
             <a class="flags lang" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
-                <!-- <img src="../../../assets/img/united-states.svg" alt=""> -->
             </a>
             <a class="flags lang" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
-                <!-- <img src="../../../assets/img/spain.svg" alt=""> -->
             </a>
         </div>
     </div>
-</nav>
+</nav> -->
+
+<div class="container-fluid">
+    <nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar">
+        <div class="container-fluid navWidth" id="contBotonesNav">
+
+            <a class="navbar-brand" [routerLink]="['/home']">
+                <img src="../../../assets/img/shared/logo3.png" alt="">
+            </a>
+
+            <!-- <div class="container col-1" style="padding-right: 5%">
+            <div class="row lang">
+                <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
+                </a>
+                <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
+                </a>
+            </div>
+        </div> -->
+
+            <button class="navbar-toggler white-border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
+        </button>
+
+
+            <!-- <div class="container col-1" style="padding-right: 5%">
+        <div class="row lang">
+            <a class="flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span>
+            </a>
+            <a class="flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span>
+            </a>
+        </div>
+    </div> -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand white" id="navText" [routerLink]="['/services']">
+                            <span>{{ 'SHARED.NAVBAR.OPTION1' | translate }}</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand white" id="navText" [routerLink]="['/how-we-work']">
+                            <span>{{ 'SHARED.NAVBAR.OPTION2' | translate }}</span>
+                        </a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="navbar-brand white" id="navText" [routerLink]="['/who-we-are']">
+                            <span>{{ 'SHARED.NAVBAR.OPTION3' | translate }}</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item lang">
+                        <a class="navbar-brand white flags" (click)="langChange()" *ngIf=(this.langEs)><span style="color: white">EN </span></a>
+                        <a class="navbar-brand white flags" (click)="langChange()" *ngIf=(!this.langEs)><span style="color: white">ES </span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</div>

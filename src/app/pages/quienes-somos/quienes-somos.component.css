@@ -17,12 +17,22 @@ h1 {
 }
 
 .foto {
+    background: no-repeat center center;
     /* background: grey; */
-    background-size: cover;
-    position: relative;
-    background-position: center;
+    background-size: cover !important;
+    position: relative !important;
+    background-position: center !important;
     height: 100%;
-    max-height: 400px;
+    /* max-height: 400px; */
+    /* min-height: 200px; */
+}
+
+.bg {
+    padding: 8px 20px;
+}
+
+.card-container {
+    min-height: 150px;
 }
 
 .prueba {

@@ -39,7 +39,8 @@ html {
     }
 }
 
-@media (max-width: 815px) {
+
+/* @media (max-width: 815px) {
     #navbar {
         display: none;
     }
@@ -52,4 +53,4 @@ html {
     #navbar2 {
         display: none;
     }
-}
+} */
