@@ -15,6 +15,6 @@ export class QuienesSomosComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    new WOW().init();
+    new WOW({live: false}).init();
   }
 }

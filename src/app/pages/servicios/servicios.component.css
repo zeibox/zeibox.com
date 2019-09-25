@@ -17,7 +17,7 @@ h6 {
 }
 
 .foto {
-    background: no-repeat center center;
+    /* background: no-repeat center center; */
     /* background: grey; */
     background-size: cover !important;
     position: relative !important;
@@ -47,8 +47,8 @@ h6 {
 
 @media (max-width: 990px) {
     .bg {
-        /* height: 300px; */
-        visibility: hidden;
+        height: 200px;
+        /* visibility: hidden; */
     }
     .bg {
         padding: 8px;
