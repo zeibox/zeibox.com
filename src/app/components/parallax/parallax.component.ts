@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ParallaxComponent implements OnInit {
 
-  @Input() parrafo: any;
+  @Input() bannerTitle: any;
+  @Input() bannerText: any;
   @Input() estilos: any;
 
   h: number;
@@ -19,6 +20,7 @@ export class ParallaxComponent implements OnInit {
   ngOnInit() {
     console.log(this.estilos);
     this.styles();
+    console.log(this.bannerText);
   }
 
   styles() {

@@ -1,9 +1,16 @@
 <div class="fondo" [ngStyle]="asignarEstilos()" id="fondo">
     <div id="filtro" [ngStyle]="asignarOpacidad()">
-        <div class="vcenter text-white text-center col-10">
+        <div class="vcenter text-white text-center col-10" *ngIf="bannerText == undefined; else textOn">
             <p>
-                <span class="text-banner txt"> {{ parrafo }}</span>
+                <span class="text-banner txt"> {{ bannerTitle }}</span>
             </p>
         </div>
+        <ng-template #textOn>
+            <div class="vcenter text-white text-center col-10">
+                <p>
+                    <span class="text-banner txt"> {{ bannerTitle }} <br> <br> {{ bannerText }}</span>
+                </p>
+            </div>
+        </ng-template>
     </div>
 </div>

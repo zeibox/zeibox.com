@@ -107,34 +107,34 @@
     },
     "SERVICES": {
         "COVER-PAGE": {
-            "TITLE": "",
-            "SUBTITLE": ""
+            "TITLE": "Build the proyect",
+            "SUBTITLE": "We implement developments with friendly and intuitive interfaces that simplify the path to success."
         },
         "CARDS": {
-            "TITLE": "",
-            "SUBTITLE": "",
+            "TITLE": "Convenient devices",
+            "SUBTITLE": "Leaving aside the internal complexity of a development, they can be implemented in a mobile, tablet or in Web environment.",
             "CARD1": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Web Site",
+                "BODY": "Static implementation of responsive content (They adapt to the size of the device)."
             },
             "CARD2": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Web Applications",
+                "BODY": "Dynamic content implementation (with user interaction, as in desktop programs). It includes a control panel for content maintenance."
             },
             "CARD3": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Applications in Android and iOS environments",
+                "BODY": "Apps uploaded to the Play Store and Apple Store, for all types of devices (Phones, Tablets, TVs, Cars, Watches, etc."
             }
         },
         "PARALLAX": {
-            "TITLE": "",
-            "SUBTITLE": ""
+            "TITLE": "DEVISE THE SUCCESS OF THE PROJECT",
+            "SUBTITLE": "All applications throughout their life cycle, go through changes and incorporations of new content that in software engineering must be take in consideration since the beginning, this facilitates growth adaptation of each company."
         },
         "BIG-CARD": {
-            "MAIN-TITLE": "",
+            "MAIN-TITLE": "All applications throughout their life cycle, go through changes and incorporations of new content that in software engineering must be take in consideration since the beginning, this facilitates growth adaptation of each company.",
             "CARD": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Tools we use in Software Engineering",
+                "BODY": "There are many tools for project development. Currently we use technologies that have revolutionized the world, such as those used in Social Networks (to support a real-time demand of millions of people). Open source software, such as frameworks, standards, UI libraries - HTML5, Angular, Hybrid platforms  development such as Cordova, Ionic and more stable Backend applications and with security and backup support."
             }
         }
     },
