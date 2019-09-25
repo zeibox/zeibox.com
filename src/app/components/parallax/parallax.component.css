@@ -16,13 +16,21 @@
     height: 100%;
 }
 
+.text-banner {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+p {
+    margin: 0;
+}
+
 @media (min-width: 0px) and (max-width: 700px) {
     .text-banner {
         font-size: 1.4em;
         font-weight: 500;
     }
     .fondo {
-        height: 300px !important;
+        height: 200px !important;
     }
 }
 
@@ -39,6 +47,6 @@
         font-weight: 500;
     }
     .fondo {
-        height: 500px !important;
+        height: 300px !important;
     }
 }

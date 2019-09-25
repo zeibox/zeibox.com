@@ -15,7 +15,7 @@ export class ServiciosComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    new WOW().init();
+    new WOW().init(console.log('prueba disparo'));
   }
 
 }
