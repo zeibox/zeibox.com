@@ -1,4 +1,4 @@
-<app-cover-page img='../../../assets/img/services/cover-page.jpg' size="500" title="{{ 'SERVICES.COVER-PAGE.TITLE' | translate }}" text="{{ 'SERVICES.COVER-PAGE.SUBTITLE' | translate }}" color="rgba(194, 20, 20, 0.746)">
+<app-cover-page img='../../../assets/img/services/cover-page-big.jpg' size="500" title="{{ 'SERVICES.COVER-PAGE.TITLE' | translate }}" text="{{ 'SERVICES.COVER-PAGE.SUBTITLE' | translate }}" color="rgba(194, 20, 20, 0.746)">
 </app-cover-page>
 
 <div class="container-fluid p-0 m-0" style="background-color: rgb(255, 255, 255)">
@@ -9,9 +9,9 @@
         <h1>{{ 'SERVICES.CARDS.TITLE' | translate }}</h1>
         <h6>{{ 'SERVICES.CARDS.SUBTITLE' | translate }}</h6>
         <div class="row justify-content-between">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-7 col-xl-9">
                 <div class="row">
-                    <div class="col-12 col-lg-6 p-2" style="height: 200px">
+                    <div class="col-12 col-xl-6 p-2">
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 p-2" style="height: 200px">
+                    <div class="col-12 col-xl-6 p-2">
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-12 p-2" style="height: 200px">
+                    <div class="col-12 col-xl-12 p-2">
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">
@@ -40,24 +40,33 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-4 wow animated slideInRight bg" data-wow-iteration="1">
-                <img class="foto" style="max-height: 320px;" src="../../../assets/img/services/cards2.jpg" alt="">
+            <div class="col-sm-12 col-lg-5 col-xl-3 wow animated slideInRight bg" data-wow-iteration="1">
+                <div class="foto" style="background: url('../../../assets/img/services/cards2.jpg') no-repeat center center" alt=""></div>
             </div>
         </div>
     </div>
 
-    <!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro] -->
-    <app-parallax parrafo="{{'SERVICES.PARALLAX.TITLE' | translate}}" [estilos]="[400, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
+    <!-- altura del parallax ya definida en pixeles  array: [altura-parallax, url-imagen-fondo, color-filtro]  -->
+    <!-- bannerText="{{ 'SERVICES.PARALLAX.SUBTITLE' | translate }}" -->
+    <app-parallax bannerTitle="{{'SERVICES.PARALLAX.TITLE' | translate}}" [estilos]="[300, 'https://blog.rentcars.com/content-page/uploads/2019/06/rota-dos-7-lagos-argentina.jpg', 'rgba(29, 28, 28, 0.65)']"></app-parallax>
+
+
+    <div class="container-fluid bg-dark">
+        <div class="container text-white textoBannerGris">
+            <p>{{ 'SERVICES.BIG-CARD.MAIN-TITLE' | translate }}</p>
+        </div>
+    </div>
 
     <div class="container col-10 my-5">
-        <h4>{{ 'SERVICES.BIG-CARD.MAIN-TITLE' | translate }}</h4>
+
+
         <div class="row justify-content-between">
             <div class="col-12 col-lg-4 wow animated slideInLeft bg" data-wow-iteration="1">
-                <img class="foto" style="max-width: 360px;max-height: 260px;" src="../../../assets/img/services/cards.jpg" alt="">
+                <div class="foto" style="background: url('../../../assets/img/services/cards.jpg') no-repeat center center" alt=""></div>
             </div>
             <div class="col-12 col-lg-8">
                 <div class="row">
-                    <div class="col-12 p-2" style="height: 300px">
+                    <div class="col-12 p-2">
                         <div class="card text-left">
                             <img class="card-img-top" alt="">
                             <div class="card-body">

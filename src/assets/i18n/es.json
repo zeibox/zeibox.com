@@ -107,65 +107,65 @@
     },
     "SERVICES": {
         "COVER-PAGE": {
-            "TITLE": "Construir el proyecto",
-            "SUBTITLE": "Implementamos desarrollos con interfaces amigables e intuitivas, que simplifiquen el camino al éxito."
+            "TITLE": "Construcción del proyecto",
+            "SUBTITLE": "Desarrollamos interfaces amigables e intuitivas, que simplifiquen el camino al éxito."
         },
         "CARDS": {
-            "TITLE": "Dispositivos convenientes",
-            "SUBTITLE": "Dejando de lado la complejidad interna de un desarrollo, se pueden implementar tanto en entorno móvil, tableta y/o en la Web.",
+            "TITLE": "Diferentes dispositivos",
+            "SUBTITLE": "Creamos sistemas a medida pensando en las plataformas ideales para tu negocio.",
             "CARD1": {
                 "TITLE": "Sitio web",
-                "BODY": "Implementación estática de contenidos responsivos (Se adaptan al tamaño del dispositivo)."
+                "BODY": "Páginas profesionales desde cero o rediseño de sitios ya existentes para un mejor rendimiento."
             },
             "CARD2": {
                 "TITLE": "Aplicaciones Web",
-                "BODY": "Implementación de contenidos dinámicos (con interacción del usuario como en programas de escritorio). Incluye un panel del control para el mantenimiento de dichos contenidos."
+                "BODY": "Implementación de contenidos dinámicos. Incluye un panel del control junto con estadisticas para tener el control total de lo que está pasando."
             },
             "CARD3": {
                 "TITLE": "Aplicaciones en entornos Android y iOS",
-                "BODY": "Aplicaciones subidas a Play Store y Apple Store, para todo tipo de dispositivos (Móviles, Tabletas, TVs, Autos, Relojes, etc)"
+                "BODY": "Aplicaciones subidas a Play Store y Apple Store, para todo tipo de dispositivos (Móviles, Tabletas, TVs, Autos, Relojes, etc)."
             }
         },
         "PARALLAX": {
-            "TITLE": "IDEAR EL EXITO DEL PROYECTO",
+            "TITLE": "PLANIFICACIÓN HECHA POR PROFESIONALES",
             "SUBTITLE": "Todas las aplicaciones a lo largo de su ciclo de vida, sufren cambios e incorporación de nuevos contenidos que en la ingeniería de sofware deben ser tomadas en cuenta desde un comienzo, ello facilita la adaptación al crecimiento de cada empresa."
         },
         "BIG-CARD": {
             "MAIN-TITLE": "Todas las aplicaciones a lo largo de su ciclo de vida, sufren cambios e incorporación de nuevos contenidos que en la ingeniería de sofware deben ser tomadas en cuenta desde un comienzo, ello facilita la adaptación al crecimiento de cada empresa.",
             "CARD": {
                 "TITLE": "Herramientas que utilizamos en la Ingeniería de Software",
-                "BODY": "Existen gran cantidad de herramientas para la construcción de proyectos; en la actualidad utilizamos tecnologías que han revolucionado el mundo como las utilizadas en Redes Sociales(para soportar una demanda en tiempo real de millones de personas);software de código abierto, como frameworks, estándares, librerías de UI - HTML5, Angular - , plataformas de desarrollo híbrido como Cordova, Ionic y aplicaciones de Backend más estables y con soporte en seguridad y respaldo."
+                "BODY": "Existen gran cantidad de herramientas para la construcción de proyectos, en la actualidad utilizamos tecnologías que han revolucionado el mundo como las utilizadas en Redes Sociales (para soportar una demanda en tiempo real de millones de personas); software de código abierto, como frameworks, estándares, librerías de UI - HTML5, Angular - , plataformas de desarrollo híbrido como Cordova, Ionic y aplicaciones de Backend más estables y con soporte en seguridad y respaldo."
             }
         }
     },
     "HOW-WE-WORK": {
         "COVER-PAGE": {
-            "TITLE": "Planteando objetivos y estrategias",
-            "SUBTITLE": "Análisis de las necesidades y asesoría, con el objetivo de obtener una sólida presencia digital, apoyados en herramientas de última generación."
+            "TITLE": "Fijando objetivos y estrategias",
+            "SUBTITLE": "Análisis de las necesidades y asesoría, con el objetivo de obtener una sólida presencia digital apoyados en herramientas de última generación."
         },
         "CARDS": {
-            "TITLE": "Adaptando y transformando la realidad del proyecto",
-            "SUBTITLE": "Implementación de sistemas a medida para simplificar las tareas y hacer más eficiente el negocio, elaborando estadísticas que ayuden a la toma de decisiones",
+            "TITLE": "Transformar y adaptar el proyecto",
+            "SUBTITLE": "Implementación de sistemas a medida para simplificar las tareas y hacer más eficiente el negocio, elaborando estadísticas que ayuden a la toma de decisiones.",
             "CARD1": {
                 "TITLE": "Proyectos digitales en ejecución",
-                "BODY": "Implementar cambios que optimicen el funcionamiento y/o posicionamiento a proyectos heredados"
+                "BODY": "Implementar cambios que optimicen el funcionamiento y/o posicionamiento en proyectos heredados."
             },
             "CARD2": {
                 "TITLE": "Equipamiento tecnológico",
-                "BODY": "Actualización del hardware obsoleto e incorporación de nuevos dispositivos según corresponda"
+                "BODY": "Actualización del hardware obsoleto e incorporación de nuevos dispositivos según corresponda."
             },
             "CARD3": {
                 "TITLE": "Personal con conocimientos insuficientes",
-                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas), es fundamental para el aprovechamiento buscado en todo proyecto"
+                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas) es fundamental para el aprovechamiento de todo proyecto."
             },
             "CARD4": {
                 "TITLE": "Diseño e imagen de marca (Branding)",
-                "BODY": "Los objetivos para la construcción de una marca que sea representativa"
+                "BODY": "Llevamos a cabo la construcción de una marca que sea representativa y con personalidad."
             }
         },
         "PARALLAX": {
-            "QUESTION1": "¿ Que valor agregado genera cada proyecto ?",
-            "RESPONSE1": "Optimizar la gestión en tiempo real, facilita el mejoramiento de los niveles de rentabilidad y desempeño.",
+            "QUESTION1": "¿ Qué valor agregado genera cada proyecto ?",
+            "RESPONSE1": "Optimizar la gestión en tiempo real, mejora los niveles de rentabilidad y desempeño.",
 
             "QUESTION2": "¿ Qué nos motiva hacer lo que hacemos ?",
             "RESPONSE2": "La tecnología nos impulsa a crecer junto a nuestros clientes, sin dependencias futuras, haciendo un mundo más participativo y vinculante."
@@ -173,18 +173,18 @@
     },
     "WHO-WE-ARE": {
         "COVER-PAGE": {
-            "TITLE": "",
+            "TITLE": "¿Quiénes sómos?",
             "SUBTITLE": ""
         },
-        "TITLE": "¿Quiénes sómos?",
+        "TITLE": "",
         "TEXT_1": {
             "P_1": "Queremos una empresa que nos brinde libertad e independencia para aprovechar la vida y no perder esos momentos que son únicos. Buscamos el compromiso y confianza como principales valores para formar una relación fuerte, que nos permita darnos ese tiempo que es tan necesario hoy en día.",
-            "P_2": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades; te proponemos subirte a esta revolución, con nuestra ayuda y hacer un mundo más participativo y vinculante.",
+            "P_2": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades. Te proponemos subirte a esta revolución y con nuestra ayuda hacer un mundo más participativo y vinculante.",
             "P_3": "Amamos la tecnología y sabemos que los beneficios que se optienen son incontables y sobre todo nos hacen la vida más fácil."
         },
         "TEXT_2": {
-            "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital; la tecnología permite desarrollar soluciones donde cada participante puede hacerlo desde distintos lugares del mundo, con la libertad que ello implica.",
-            "P_2": "Este es el modelo que marca la tendencia en la actualidad y el que hemos adoptado, ya que permite gestionar soluciones desde distintos puntos.",
+            "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital. La tecnología permite desarrollar soluciones desde cualquier parte del mundo, y queremos aprovechar esa gran libertad.",
+            "P_2": "Este es el modelo que marca la tendencia en la actualidad, ya que permite gestionar soluciones desde distintos puntos con gran facilidad.",
             "P_3": "Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento."
         }
     }
