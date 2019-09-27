@@ -10,27 +10,31 @@ import { Router } from '@angular/router';
 
 export class NavbarComponent implements OnInit {
 
-  localLang: string;
   t1: any;
   fade: boolean;
   opciones = 'none';
   langEs: boolean;
+
   browserLang = this.translate.getBrowserLang();
 
+  localLang: string;
+
   constructor(public translate: TranslateService, private router: Router) {
+
     translate.addLangs(['es', 'en']);
     // translate.setDefaultLang('es');
-    translate.use(this.browserLang.match(/es|en/) ? this.browserLang : 'es');
-    this.lang();
+    // translate.use(this.browserLang.match(/es|en/) ? this.browserLang : 'es');
+    // this.lang();
   }
 
   ngOnInit() {
-    this.getLang();
+
     console.log(this.localLang);
-    this.translate.use(this.localLang);
-    // Inicializar la pagina en ingles ------->
-    // this.translate.use('en');
-    // this.langEs = false;
+    this.browserLang = this.translate.getBrowserLang();
+    this.localLang = localStorage.getItem('LANG');
+    console.log(this.localLang);
+    this.checkLang();
+
     window.onscroll = () => {
       const nav = document.querySelector('#navbar');
       const cBN = document.querySelector('#contBotonesNav');
@@ -59,35 +63,48 @@ export class NavbarComponent implements OnInit {
     };
   }
 
-
   langChange() {
-    this.getLang();
     if (this.langEs) {
       this.translate.use('en');
-      this.saveLocal('en');
+      this.setLocalLang('en');
       this.langEs = false;
     } else {
       this.translate.use('es');
-      this.saveLocal('es');
+      this.setLocalLang('es');
       this.langEs = true;
     }
   }
 
-  lang() {
-    if (this.browserLang === 'es') {
+
+
+  checkLang() {
+    if (this.localLang === null || undefined) {
       this.langEs = true;
+      this.translate.use('es');
     } else {
-      this.langEs = false;
+      if (this.localLang === 'es') {
+        // Setea el booleano que cambia el icono del navbar
+        this.langEs = true;
+        this.translate.use('es');
+      } else {
+        // Setea el booleano que cambia el icono del navbar
+        this.langEs = false;
+        this.translate.use('en');
+      }
     }
   }
 
-  saveLocal(lang: string) {
+  setLocalLang(lang: string) {
     localStorage.setItem('LANG', lang);
   }
 
   getLang() {
     this.localLang = localStorage.getItem('LANG');
   }
+
+
+
+
 
   timeout2() {
     this.t1 = setTimeout(() => {
@@ -102,7 +119,7 @@ export class NavbarComponent implements OnInit {
     }
   }
   checkRouteService() {
-    if (this.router.url === '/service') {
+    if (this.router.url === '/services') {
       window.scrollTo(0, 0);
     }
   }
