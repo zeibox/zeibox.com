@@ -4,6 +4,7 @@
             "OPTION1": "Servicios",
             "OPTION2": "Cómo trabajamos",
             "OPTION3": "Quiénes somos",
+            "OPTION4": "Inicio",
             "SELECT": "Seleccionar lenguaje"
         },
         "FOOTER": {
@@ -148,7 +149,7 @@
             "SUBTITLE": "Implementación de sistemas a medida para simplificar las tareas y hacer más eficiente el negocio, elaborando estadísticas que ayuden a la toma de decisiones.",
             "CARD1": {
                 "TITLE": "Proyectos digitales en ejecución",
-                "BODY": "Implementar cambios que optimicen el funcionamiento y/o posicionamiento en proyectos heredados."
+                "BODY": "Implementar cambios que optimicen el funcionamiento o posicionamiento en proyectos heredados."
             },
             "CARD2": {
                 "TITLE": "Equipamiento tecnológico",

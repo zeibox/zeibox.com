@@ -4,6 +4,7 @@
             "OPTION1": "Services",
             "OPTION2": "How we work",
             "OPTION3": "Who we are",
+            "OPTION4": "Home",
             "SELECT": "Select Language"
         },
         "FOOTER": {
@@ -140,52 +141,52 @@
     },
     "HOW-WE-WORK": {
         "COVER-PAGE": {
-            "TITLE": "",
-            "SUBTITLE": ""
+            "TITLE": "Setting objectives and strategies",
+            "SUBTITLE": "Requirements analysis and advice, with the aim of obtaining a solid digital presence supported by the latest tools."
         },
         "CARDS": {
-            "TITLE": "",
-            "SUBTITLE": "",
+            "TITLE": "Adapt and transform the project",
+            "SUBTITLE": "Implementation of custom systems to simplify tasks and make your business more efficient, developing statistics that helps in your decision making.",
             "CARD1": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Digital projects in execution",
+                "BODY": "Implement changes that optimize performance or positioning in inherited projects"
             },
             "CARD2": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Technological equipment",
+                "BODY": "Obsolete hardware update and incorporation of new devices as appropriate"
             },
             "CARD3": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Staff with insufficient knowledge",
+                "BODY": "The training of personal (hierarchical, administrative and other areas), is essential for the use of any project"
             },
             "CARD4": {
-                "TITLE": "",
-                "BODY": ""
+                "TITLE": "Desing and Branding",
+                "BODY": "We carry out your brand construction wich is representative and with personality"
             }
         },
         "PARALLAX": {
-            "QUESTION1": "",
-            "RESPONSE1": "",
+            "QUESTION1": "What added value does each project generate?",
+            "RESPONSE1": "Optimize real-time management, improve profitability and performance levels",
 
-            "QUESTION2": "",
-            "RESPONSE2": ""
+            "QUESTION2": "What motivates us to do what we do?",
+            "RESPONSE2": "Technology drives us to grow with our clients, without future dependencies, making a more participatory and binding world"
         }
     },
     "WHO-WE-ARE": {
         "COVER-PAGE": {
-            "TITLE": "",
+            "TITLE": "Who we are?",
             "SUBTITLE": ""
         },
         "TITLE": "",
         "TEXT_1": {
-            "P_1": "",
-            "P_2": "",
-            "P_3": ""
+            "P_1": "We want a company that gives us freedom and independence to take advantage of life and not lose those unique moments. We seek commitment and trust as the main values ​​to form a strong relationship, which allows us to give ourselves that time that is so necessary today.",
+            "P_2": "We live in a fantastic time where technology gives us infinite possibilities. We suggest you get on this revolution and with our help make a more participatory and binding world.",
+            "P_3": "We love technology and know that the benefits it provides are countless and above all make our lives easier."
         },
         "TEXT_2": {
-            "P_1": "",
-            "P_2": "",
-            "P_3": ""
+            "P_1": "We are a group of professionals that was formed with the objective of providing integral solutions to clients who wish to grow in the digital segment. Technology allows developing solutions from anywhere in the world, and we want to take advantage of that great freedom.",
+            "P_2": "This is the model that sets the trend today, since it allows managing solutions from different points with great ease.",
+            "P_3": "We imagine a service wich does not generate dependencies, establishing a relationship of trust and that stimulates the growth of each venture."
         }
     }
 }
