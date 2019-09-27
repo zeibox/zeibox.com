@@ -18,9 +18,9 @@ export class ParallaxComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.estilos);
+    // console.log(this.estilos);
     this.styles();
-    console.log(this.bannerText);
+    // console.log(this.bannerText);
   }
 
   styles() {
