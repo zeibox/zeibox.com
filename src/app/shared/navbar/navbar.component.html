@@ -47,7 +47,7 @@
 <nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar">
     <div class="container-fluid navWidth" id="contBotonesNav">
 
-        <a class="navbar-brand" [routerLink]="['/home']">
+        <a class="navbar-brand" [routerLink]="['/home']" (click)="checkRouteHome()">
             <img src="../../../assets/img/shared/logo3.png" alt="">
         </a>
 
@@ -58,22 +58,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="navbar-brand white" id="navText" [routerLink]="['/home']">
+                    <a class="navbar-brand white" id="navText" [routerLink]="['/home']" (click)="checkRouteHome()">
                         <span>{{ 'SHARED.NAVBAR.OPTION4' | translate }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand white" id="navText" [routerLink]="['/services']">
+                    <a class="navbar-brand white" id="navText" [routerLink]="['/services']" (click)="checkRouteService()">
                         <span>{{ 'SHARED.NAVBAR.OPTION1' | translate }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand white" id="navText" [routerLink]="['/how-we-work']">
+                    <a class="navbar-brand white" id="navText" [routerLink]="['/how-we-work']" (click)="checkRouteWeWork()">
                         <span>{{ 'SHARED.NAVBAR.OPTION2' | translate }}</span>
                     </a>
                 </li>
                 <li class="nav-item pr-5">
-                    <a class="navbar-brand white" id="navText" [routerLink]="['/who-we-are']">
+                    <a class="navbar-brand white" id="navText" [routerLink]="['/who-we-are']" (click)="checkRouteWeAre()">
                         <span>{{ 'SHARED.NAVBAR.OPTION3' | translate }}</span>
                     </a>
                 </li>

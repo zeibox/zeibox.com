@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -9,20 +10,24 @@ import { TranslateService } from '@ngx-translate/core';
 
 export class NavbarComponent implements OnInit {
 
+  localLang: string;
   t1: any;
   fade: boolean;
   opciones = 'none';
   langEs: boolean;
   browserLang = this.translate.getBrowserLang();
 
-  constructor(public translate: TranslateService) {
+  constructor(public translate: TranslateService, private router: Router) {
     translate.addLangs(['es', 'en']);
-    translate.setDefaultLang('es');
+    // translate.setDefaultLang('es');
     translate.use(this.browserLang.match(/es|en/) ? this.browserLang : 'es');
     this.lang();
   }
 
   ngOnInit() {
+    this.getLang();
+    console.log(this.localLang);
+    this.translate.use(this.localLang);
     // Inicializar la pagina en ingles ------->
     // this.translate.use('en');
     // this.langEs = false;
@@ -56,11 +61,14 @@ export class NavbarComponent implements OnInit {
 
 
   langChange() {
+    this.getLang();
     if (this.langEs) {
       this.translate.use('en');
+      this.saveLocal('en');
       this.langEs = false;
     } else {
       this.translate.use('es');
+      this.saveLocal('es');
       this.langEs = true;
     }
   }
@@ -73,10 +81,40 @@ export class NavbarComponent implements OnInit {
     }
   }
 
+  saveLocal(lang: string) {
+    localStorage.setItem('LANG', lang);
+  }
+
+  getLang() {
+    this.localLang = localStorage.getItem('LANG');
+  }
+
   timeout2() {
     this.t1 = setTimeout(() => {
       this.opciones = 'none';
     }, 1000);
+  }
+
+
+  checkRouteHome() {
+    if (this.router.url === '/home') {
+      window.scrollTo(0, 0);
+    }
+  }
+  checkRouteService() {
+    if (this.router.url === '/service') {
+      window.scrollTo(0, 0);
+    }
+  }
+  checkRouteWeWork() {
+    if (this.router.url === '/how-we-work') {
+      window.scrollTo(0, 0);
+    }
+  }
+  checkRouteWeAre() {
+    if (this.router.url === '/who-we-are') {
+      window.scrollTo(0, 0);
+    }
   }
 
 

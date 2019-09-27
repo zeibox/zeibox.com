@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { WOW } from 'wowjs/dist/wow.min';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-quienes-somos',
@@ -8,7 +9,7 @@ import { WOW } from 'wowjs/dist/wow.min';
 })
 export class QuienesSomosComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     window.scrollTo(0, 0);
