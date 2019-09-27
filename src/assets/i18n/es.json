@@ -156,7 +156,7 @@
             },
             "CARD3": {
                 "TITLE": "Personal con conocimientos insuficientes",
-                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas) es fundamental para el aprovechamiento de todo proyecto."
+                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas), es fundamental para el aprovechamiento de todo proyecto."
             },
             "CARD4": {
                 "TITLE": "Diseño e imagen de marca (Branding)",
@@ -174,13 +174,13 @@
     "WHO-WE-ARE": {
         "COVER-PAGE": {
             "TITLE": "¿Quiénes sómos?",
-            "SUBTITLE": ""
+            "SUBTITLE": "Amamos la tecnología y sabemos que los beneficios que se optienen son incontables y sobre todo nos hacen la vida más fácil."
         },
         "TITLE": "",
         "TEXT_1": {
             "P_1": "Queremos una empresa que nos brinde libertad e independencia para aprovechar la vida y no perder esos momentos que son únicos. Buscamos el compromiso y confianza como principales valores para formar una relación fuerte, que nos permita darnos ese tiempo que es tan necesario hoy en día.",
             "P_2": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades. Te proponemos subirte a esta revolución y con nuestra ayuda hacer un mundo más participativo y vinculante.",
-            "P_3": "Amamos la tecnología y sabemos que los beneficios que se optienen son incontables y sobre todo nos hacen la vida más fácil."
+            "P_3": ""
         },
         "TEXT_2": {
             "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital. La tecnología permite desarrollar soluciones desde cualquier parte del mundo, y queremos aprovechar esa gran libertad.",
