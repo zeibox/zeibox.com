@@ -90,6 +90,16 @@ h6 {
     padding: 8px 20px;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: justify;
+}
+
 hr {
     border: 2px solid white;
     margin: 30px 15%;

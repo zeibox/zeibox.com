@@ -43,7 +43,7 @@
         margin-right: 5%;
     }
     .text-banner h5 {
-        font-size: 0.7em;
+        font-size: 0.9em;
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -57,6 +57,7 @@
     #banner {
         background-size: cover;
         position: relative;
+        height: 400px !important;
     }
 }
 
