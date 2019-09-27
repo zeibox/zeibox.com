@@ -64,7 +64,7 @@ ul {
 nav {
     position: fixed;
     top: 0;
-    height: 80px;
+    /* height: 80px; */
     width: 100%;
     box-sizing: border-box;
     padding: 12px 18px;
@@ -79,19 +79,9 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-/* #menu {
-    right: 0%;
-    top: 100px;
-    display: flex;
-    justify-content: center;
-    transform: translateX(70%);
-} */
-
-
-/* .cent {
-    display: flex;
-} */
+#navText {
+    font-size: 18px;
+}
 
 .zeiboxH {
     font-size: 30px;
@@ -107,9 +97,23 @@ button {
 }
 
 .navWidth {
-    padding: 16px 10% !important;
+    padding: 10px 10% !important;
     transition: background-color 0.4s ease-out;
 }
+
+.navbar-brand img {
+    height: 35px;
+}
+
+
+/* ul {
+    display: table
+}
+
+li {
+    display: table-cell;
+    vertical-align: middle;
+} */
 
 @media (min-width: 0px) and (max-width: 430px) {
     .navWidth {
