@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Router } from '@angular/router';
+import { Router} from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -65,7 +65,6 @@ export class NavbarComponent implements OnInit {
 
     const ariaExp = document.getElementById('toggleBtn').getAttribute('aria-expanded');
     const cBN = document.querySelector('#contBotonesNav');
-    console.log(ariaExp);
 
     if (window.innerWidth > 992) {
       if (window.scrollY <= 10) {
@@ -157,6 +156,8 @@ export class NavbarComponent implements OnInit {
     }
   }
 
+
+  
 
   // handleMenu() {
   //   const nav = document.querySelector('#navbar');

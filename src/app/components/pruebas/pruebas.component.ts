@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
+import { Router, NavigationStart, Event as NavigationEvent } from '@angular/router';
 
 @Component({
   selector: 'app-pruebas',
@@ -6,6 +7,18 @@ import { Component, OnInit, ElementRef } from '@angular/core';
   styleUrls: ['./pruebas.component.css']
 })
 export class PruebasComponent implements OnInit {
+
+  constructor(private router: Router) {
+    this.router.events
+    .subscribe(
+    (event: NavigationEvent) => {
+      if(event instanceof NavigationStart) {
+        this.clearTimeouts();
+      }
+    });
+   }
+
+
 
   imagen: string[] = [
     '../../../assets/img/home/tablet1.png',
@@ -28,7 +41,6 @@ export class PruebasComponent implements OnInit {
   t2: any;
   t3: any;
 
-  constructor() { }
 
   ngOnInit() {
     this.anim1 = 'nule';
