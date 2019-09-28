@@ -75,7 +75,9 @@ export class NavbarComponent implements OnInit {
         if (ariaExp === 'true') {
           cBN.className = 'container-fluid navWidth scroll';
         } else {
-          cBN.className = 'container-fluid navWidth';
+          if (window.scrollY <= 10) {
+            cBN.className = 'container-fluid navWidth';
+          }
         }
       }
     }
