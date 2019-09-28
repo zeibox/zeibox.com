@@ -44,14 +44,14 @@
     </div>
 </nav> -->
 
-<nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar">
+<nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar" (window:resize)="onRes()">
     <div class="container-fluid navWidth" id="contBotonesNav">
 
         <a class="navbar-brand" [routerLink]="['/home']" (click)="checkRouteHome()">
             <img src="../../../assets/img/shared/logo3.png" alt="">
         </a>
 
-        <button class="navbar-toggler white-border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler white-border" (click)="toggleChangeColor()" id="toggleBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon white-icon" id="toggleIcon"></span>
             </button>
 
