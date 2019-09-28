@@ -29,38 +29,71 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log(this.localLang);
     this.browserLang = this.translate.getBrowserLang();
     this.localLang = localStorage.getItem('LANG');
-    console.log(this.localLang);
     this.checkLang();
 
     window.onscroll = () => {
+
       const nav = document.querySelector('#navbar');
       const cBN = document.querySelector('#contBotonesNav');
-      // const nav2 = document.querySelector('#navbar2');
-      // const navt = document.querySelector('#toggle');
-      // const navti = document.querySelector('#toggleIcon');
-      // const navtext = document.querySelector('#navText');
-      // const navZei = document.querySelector('#navZeibox');
-      if ( window.scrollY <= 10 ) {
-        nav.className = 'navbar navbarT fixed-top navbar-expand-lg p-0';
-        cBN.className = 'container-fluid navWidth';
-        // nav2.className = 'navbar navbarT fixed-top';
-        // navt.className = 'navbar-toggler white-border';
-        // navti.className = 'navbar-toggler-icon white-icon';
-        // navtext.className = 'navbar-brand white';
-        // navZei.className = 'navbar-brand white mr-auto zeiboxH';
+      const ariaExp = document.getElementById('toggleBtn').getAttribute('aria-expanded');
+      if (window.innerWidth < 992) {
+        if (ariaExp === 'false') {
+          if ( window.scrollY <= 10 ) {
+            nav.className = 'navbar navbarT fixed-top navbar-expand-lg p-0';
+            cBN.className = 'container-fluid navWidth';
+          } else {
+            nav.className = 'navbar fixed-top navbar-expand-lg p-0';
+            cBN.className = 'container-fluid navWidth scroll';
+          }
+        }
       } else {
-        nav.className = 'navbar fixed-top navbar-expand-lg p-0';
-        cBN.className = 'container-fluid navWidth scroll';
-        // nav2.className = 'navbar fixed-top scroll shadow';
-        // navt.className = 'navbar-toggler red-border';
-        // navti.className = 'navbar-toggler-icon red-icon';
-        // navtext.className = 'navbar-brand red';
-        // navZei.className = 'navbar-brand red mr-auto zeiboxH';
+        cBN.className = 'container-fluid navWidth';
+        if ( window.scrollY <= 10 ) {
+          nav.className = 'navbar navbarT fixed-top navbar-expand-lg p-0';
+          cBN.className = 'container-fluid navWidth';
+        } else {
+          nav.className = 'navbar fixed-top navbar-expand-lg p-0';
+          cBN.className = 'container-fluid navWidth scroll';
+        }
       }
     };
+  }
+
+  onRes() {
+
+    const ariaExp = document.getElementById('toggleBtn').getAttribute('aria-expanded');
+    const cBN = document.querySelector('#contBotonesNav');
+    console.log(ariaExp);
+
+    if (window.innerWidth > 992) {
+      if (window.scrollY <= 10) {
+        cBN.className = 'container-fluid navWidth';
+      }
+    } else {
+      if (window.innerWidth < 992) {
+        if (ariaExp === 'true') {
+          cBN.className = 'container-fluid navWidth scroll';
+        } else {
+          cBN.className = 'container-fluid navWidth';
+        }
+      }
+    }
+  }
+
+  toggleChangeColor() {
+
+    const cBN = document.querySelector('#contBotonesNav');
+    const ariaExp = document.getElementById('toggleBtn').getAttribute('aria-expanded');
+
+    if (ariaExp === 'false') {
+      cBN.className = 'container-fluid navWidth scroll';
+    } else {
+      if (window.scrollY <= 10) {
+        cBN.className = 'container-fluid navWidth';
+      }
+    }
   }
 
   langChange() {
@@ -74,8 +107,6 @@ export class NavbarComponent implements OnInit {
       this.langEs = true;
     }
   }
-
-
 
   checkLang() {
     if (this.localLang === null || undefined) {
@@ -102,16 +133,8 @@ export class NavbarComponent implements OnInit {
     this.localLang = localStorage.getItem('LANG');
   }
 
-
-
-
-
-  timeout2() {
-    this.t1 = setTimeout(() => {
-      this.opciones = 'none';
-    }, 1000);
-  }
-
+  // Checkea si el usuario está en la misma pagina y vuelve al punto 0,0 en el Eje Y
+  // si no se clickea el boton y no hace nada, parece que no funciona
 
   checkRouteHome() {
     if (this.router.url === '/home') {
