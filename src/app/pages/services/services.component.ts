@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { WOW } from 'wowjs/dist/wow.min';
 
 @Component({
-  selector: 'app-servicios',
-  templateUrl: './servicios.component.html',
-  styleUrls: ['./servicios.component.css']
+  selector: 'app-services',
+  templateUrl: './services.component.html',
+  styleUrls: ['./services.component.css']
 })
-export class ServiciosComponent implements OnInit, AfterViewInit {
+export class ServicesComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
@@ -17,5 +17,4 @@ export class ServiciosComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     new WOW({live: false}).init();
   }
-
 }

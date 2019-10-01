@@ -20,9 +20,9 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 
 import { PruebasComponent } from './components/pruebas/pruebas.component';
-import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
-import { ServiciosComponent } from './pages/servicios/servicios.component';
-import { ComoTrabajamosComponent } from './pages/como-trabajamos/como-trabajamos.component';
+import { WhoWeAreComponent } from './pages/who-we-are/who-we-are.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { HowWeWorkComponent } from './pages/how-we-work/how-we-work.component';
 import { CoverPageComponent } from './components/cover-page/cover-page.component';
 
 import { NgwWowModule } from 'ngx-wow';
@@ -54,9 +54,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     BannerComponent,
     Banner1Component,
     PruebasComponent,
-    QuienesSomosComponent,
-    ServiciosComponent,
-    ComoTrabajamosComponent,
+    WhoWeAreComponent,
+    ServicesComponent,
+    HowWeWorkComponent,
     CoverPageComponent,
     ParallaxComponent
   ],
