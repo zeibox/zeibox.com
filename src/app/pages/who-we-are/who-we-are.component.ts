@@ -3,11 +3,11 @@ import { WOW } from 'wowjs/dist/wow.min';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-quienes-somos',
-  templateUrl: './quienes-somos.component.html',
-  styleUrls: ['./quienes-somos.component.css']
+  selector: 'app-who-we-are',
+  templateUrl: './who-we-are.component.html',
+  styleUrls: ['./who-we-are.component.css']
 })
-export class QuienesSomosComponent implements OnInit, AfterViewInit {
+export class WhoWeAreComponent implements OnInit, AfterViewInit {
 
   constructor(private router: Router) { }
 

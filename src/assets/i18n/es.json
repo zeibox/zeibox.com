@@ -106,7 +106,7 @@
             "CARD6": "ASESORAMIENTO"
         }
     },
-    "SERVICES": {
+    "HOW-WE-WORK": {
         "COVER-PAGE": {
             "TITLE": "Construcción del proyecto",
             "SUBTITLE": "Desarrollamos interfaces amigables e intuitivas, que simplifiquen el camino al éxito."
@@ -139,7 +139,7 @@
             }
         }
     },
-    "HOW-WE-WORK": {
+    "SERVICES": {
         "COVER-PAGE": {
             "TITLE": "Fijando objetivos y estrategias",
             "SUBTITLE": "Análisis de las necesidades y asesoría, con el objetivo de obtener una sólida presencia digital apoyados en herramientas de última generación."
@@ -156,8 +156,8 @@
                 "BODY": "Actualización del hardware obsoleto e incorporación de nuevos dispositivos según corresponda."
             },
             "CARD3": {
-                "TITLE": "Personal con conocimientos insuficientes",
-                "BODY": "La capacitación del personal (jerárquico, administrativo y otras áreas), es fundamental para el aprovechamiento de todo proyecto."
+                "TITLE": "Capacitación del personal",
+                "BODY": "Para aprovechar al máximo las ventajas de las nuevas tecnologías es necesario que el personal (jerárquico, administrativo y otras áreas), sepan manejar las herramientas en profundidad."
             },
             "CARD4": {
                 "TITLE": "Diseño e imagen de marca (Branding)",
@@ -168,7 +168,7 @@
             "QUESTION1": "¿ Qué valor agregado genera cada proyecto ?",
             "RESPONSE1": "Optimizar la gestión en tiempo real, mejora los niveles de rentabilidad y desempeño.",
 
-            "QUESTION2": "¿ Qué nos motiva hacer lo que hacemos ?",
+            "QUESTION2": "¿ Qué nos motiva a hacer lo que hacemos ?",
             "RESPONSE2": "La tecnología nos impulsa a crecer junto a nuestros clientes, sin dependencias futuras, haciendo un mundo más participativo y vinculante."
         }
     },
@@ -179,14 +179,16 @@
         },
         "TITLE": "",
         "TEXT_1": {
-            "P_1": "Queremos una empresa que nos brinde libertad e independencia para aprovechar la vida y no perder esos momentos que son únicos. Buscamos el compromiso y confianza como principales valores para formar una relación fuerte, que nos permita darnos ese tiempo que es tan necesario hoy en día.",
-            "P_2": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades. Te proponemos subirte a esta revolución y con nuestra ayuda hacer un mundo más participativo y vinculante.",
+            "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital. La tecnología permite desarrollar soluciones desde cualquier parte del mundo, y queremos aprovechar esa gran libertad.",
+            "P_2": "Queremos una empresa que nos brinde libertad e independencia para aprovechar la vida y no perder esos momentos que son únicos. Buscamos el compromiso y confianza como principales valores para formar una relación fuerte, que nos permita darnos ese tiempo que es tan necesario hoy en día.",
+
             "P_3": ""
         },
         "TEXT_2": {
-            "P_1": "Somos un grupo de profesionales que se formó con el objetivo de dar soluciones integrales a clientes que deseen crecer en el segmento digital. La tecnología permite desarrollar soluciones desde cualquier parte del mundo, y queremos aprovechar esa gran libertad.",
-            "P_2": "Este es el modelo que marca la tendencia en la actualidad, ya que permite gestionar soluciones desde distintos puntos con gran facilidad.",
-            "P_3": "Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento."
+            "P_1": "Vivimos en una época fantástica donde la tecnología nos da infinitas posibilidades. Imaginamos un servicio que no genere dependencias, estableciendo una relación de confianza y que ello estimule el crecimiento de cada emprendimiento.",
+
+            "P_2": "Te proponemos subirte a esta revolución y con nuestra ayuda hacer un mundo más participativo y vinculante.",
+            "P_3": ""
         }
     }
 }

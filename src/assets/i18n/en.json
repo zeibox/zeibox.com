@@ -179,14 +179,15 @@
         },
         "TITLE": "",
         "TEXT_1": {
-            "P_1": "We want a company that gives us freedom and independence to take advantage of life and not lose those unique moments. We seek commitment and trust as the main values ​​to form a strong relationship, which allows us to give ourselves that time that is so necessary today.",
-            "P_2": "We live in a fantastic time where technology gives us infinite possibilities. We suggest you get on this revolution and with our help make a more participatory and binding world.",
+            "P_1": "We are a group of professionals that was formed with the objective of providing integral solutions to clients who wish to grow in the digital segment. Technology allows developing solutions from anywhere in the world, and we want to take advantage of that great freedom.",
+
+            "P_2": "We want a company that gives us freedom and independence to take advantage of life and not lose those unique moments. We seek commitment and trust as the main values ​​to form a strong relationship, which allows us to give ourselves that time that is so necessary today.",
             "P_3": ""
         },
         "TEXT_2": {
-            "P_1": "We are a group of professionals that was formed with the objective of providing integral solutions to clients who wish to grow in the digital segment. Technology allows developing solutions from anywhere in the world, and we want to take advantage of that great freedom.",
-            "P_2": "This is the model that sets the trend today, since it allows managing solutions from different points with great ease.",
-            "P_3": "We imagine a service wich does not generate dependencies, establishing a relationship of trust and that stimulates the growth of each venture."
+            "P_1": "We live in a fantastic time where technology gives us infinite possibilities. We imagine a service wich does not generate dependencies, establishing a relationship of trust and that stimulates the growth of each venture. ",
+            "P_2": "We suggest you get on this revolution and with our help make a more participatory and binding world.",
+            "P_3": ""
         }
     }
 }
