@@ -106,7 +106,7 @@
             "TEXT4C": "We provide training and counseling according to your needs."
         }
     },
-    "SERVICES": {
+    "HOW-WE-WORK": {
         "COVER-PAGE": {
             "TITLE": "Build the proyect",
             "SUBTITLE": "We implement developments with friendly and intuitive interfaces that simplify the path to success."
@@ -139,7 +139,7 @@
             }
         }
     },
-    "HOW-WE-WORK": {
+    "SERVICES": {
         "COVER-PAGE": {
             "TITLE": "Setting objectives and strategies",
             "SUBTITLE": "Requirements analysis and advice, with the aim of obtaining a solid digital presence supported by the latest tools."
