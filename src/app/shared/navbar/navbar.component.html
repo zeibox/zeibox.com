@@ -44,7 +44,7 @@
     </div>
 </nav> -->
 
-<nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar" (window:resize)="onRes()">
+<nav class="navbar navbarT fixed-top navbar-expand-lg p-0" id="navbar" (window:resize)="onRes()" (mouseleave)="test()">
     <div class="container-fluid navWidth" id="contBotonesNav">
 
         <a class="navbar-brand" [routerLink]="['/home']" (click)="checkRouteHome()">

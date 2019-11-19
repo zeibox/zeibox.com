@@ -14,6 +14,7 @@ export class NavbarComponent implements OnInit {
   fade: boolean;
   opciones = 'none';
   langEs: boolean;
+  obj;
 
   browserLang = this.translate.getBrowserLang();
 
@@ -28,6 +29,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit() {
+
 
     this.browserLang = this.translate.getBrowserLang();
     this.localLang = localStorage.getItem('LANG');
@@ -61,10 +63,16 @@ export class NavbarComponent implements OnInit {
     };
   }
 
+  test() {
+      const toggleBtn: HTMLElement = document.getElementById('toggleBtn') as HTMLElement;
+      toggleBtn.click();
+  }
+
   onRes() {
 
     const ariaExp = document.getElementById('toggleBtn').getAttribute('aria-expanded');
     const cBN = document.querySelector('#contBotonesNav');
+    
 
     if (window.innerWidth > 992) {
       if (window.scrollY <= 10) {
